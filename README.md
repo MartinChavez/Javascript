@@ -7,7 +7,7 @@ Example: Javascript Basics - Operators
 ====================
 In this example we explain the use of Operators and Grouping Expressions
 <!--  -->
-    /*Operators*/
+      /*Operators*/
       /*Common Operators used in Javascript Language*/
       it('Addition', function () {
         expect(6+4).toBe(10);
