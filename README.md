@@ -30,6 +30,6 @@ In this example we explain the use and properties of Strings
       it('Double equals on strings is case sensitive', function () {
         expect("String" == "string").toBe(false);
       });
-      it('Length of stings can be accessed with the .length property', function () {
+      it('Length of strings can be accessed with the .length property', function () {
         expect("ThisStringIsVeryLong".length).toBe(20);
       });
