@@ -31,11 +31,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuiltInFunctions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BuiltInFunctions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mytodo/test/spec/controllers/BuiltInFunctions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5818452">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Functions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="95" selection-start-line="42" selection-start-column="95" selection-end-line="42" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Arrays.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8735119">
+              <caret line="67" column="131" selection-start-line="67" selection-start-column="131" selection-end-line="67" selection-end-column="131" />
               <folding />
             </state>
           </provider>
@@ -54,6 +74,8 @@
         <option value="$PROJECT_DIR$/mytodo/test/spec/controllers/Loops.js" />
         <option value="$PROJECT_DIR$/mytodo/test/spec/controllers/Conditionals.js" />
         <option value="$PROJECT_DIR$/mytodo/test/spec/controllers/BuiltInFunctions.js" />
+        <option value="$PROJECT_DIR$/mytodo/test/spec/controllers/Functions.js" />
+        <option value="$PROJECT_DIR$/mytodo/test/spec/controllers/Arrays.js" />
       </list>
     </option>
   </component>
@@ -311,7 +333,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -564,8 +588,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mytodo/test/spec/controllers/BuiltInFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5818452">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="95" selection-start-line="42" selection-start-column="95" selection-end-line="42" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8735119">
+          <caret line="67" column="131" selection-start-line="67" selection-start-column="131" selection-end-line="67" selection-end-column="131" />
           <folding />
         </state>
       </provider>
