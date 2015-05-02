@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/BooleansAndStrings.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/BuiltInFunctions.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Conditionals.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/FunctionExpressions.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/FunctionExpressionsAsParameters.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Functions.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Loops.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Variables.js" charset="UTF-8" />
