@@ -34,8 +34,8 @@ describe('Controller: MainCtrl', function () {
     //The return keyword works as a terminating statement and exits the function returning the value in front of it
   } //The statements that will be executed should be enclosed in curly braces.
 
-
-  it('Scopes : Global and Local Variables', function () {
+  /*Scopes*/
+  it('Global and Local Variables', function () {
     /*Global Variables (on this scope)*/
     var globalNumberOne = 1;//global variables could be accessed from anywhere
 
@@ -45,6 +45,15 @@ describe('Controller: MainCtrl', function () {
     }
 
     expect(addToGlobalNumberOne(1)).toBe(2);
+  });
+  it('A functions local variables are not available once the functions scope is closed', function () {
+
+    function localFunction( ){
+      var localVariable = 5;
+      return localVariable;
+    }
+    localFunction();
+    expect(localVariable).toBe(undefined);
   });
 
 
