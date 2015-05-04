@@ -31,9 +31,9 @@ describe('Controller: MainCtrl', function () {
       return closureVariable;
     }
 
-    var closure = outsideClosure();
+    var insideClosure = outsideClosure();
 
-    expect(closure).toBe("Closure Variable");
+    expect(insideClosure).toBe("Closure Variable");
   });
 
 });
