@@ -36,7 +36,7 @@ describe('Controller: MainCtrl', function () {
     expect(concatenatingStringToLeftFunction("Second")).toBe("StringSecond");
   });
   it('Functions can return Function expressions without using an intermediate variable', function () {
-    concatenateString("rightSide");//By using parenthesis we invoke the returning function
+   // concatenateString("rightSide");//By using parenthesis we invoke the returning function
     expect(concatenateString("rightSide")("First")).toBe("FirstString");
   });
 
