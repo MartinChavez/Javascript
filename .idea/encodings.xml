@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Functions.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Hoisting.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Loops.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Objects.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Variables.js" charset="UTF-8" />
   </component>
 </project>
