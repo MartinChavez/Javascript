@@ -46,4 +46,29 @@ describe('Controller: MainCtrl', function () {
     expect(person.age).toBe(28);
   });
 
+  it('Objects do not have a native length property', function () {
+
+    var person = {
+      firstName : "Martin",
+      age : 27
+    };
+     //we cannot iterate through objects the same way we iterate Arrays
+    expect(person.length).toBeUndefined();
+  });
+
+  it('To iterate through an object we need to use the for-in loop', function () {
+
+    var person = {
+      firstName : "Martin",
+      age : 27
+    };
+
+    for(var propertyName in person){
+      //We iterate all properties, they have to match the names of the object 'person'
+      var foundProperty = (propertyName === "firstName" || propertyName === "age");
+      expect(foundProperty).toBe(true);
+    }
+
+  });
+
 });
