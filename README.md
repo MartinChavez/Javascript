@@ -23,8 +23,8 @@ Topics
  - Variables
 
 
-Example: Javascript Basics - Strings
+Example: Javascript Arrays
 ====================
-In this example we explain the use and properties of Strings 
+ An array is a data structure with automatically indexed positions
 
 <a name="README">[<img src="https://s3-us-west-2.amazonaws.com/martinbucket/arrays.png"  />](https://github.com/MartinChavez/Learn-Javascript)</a>
