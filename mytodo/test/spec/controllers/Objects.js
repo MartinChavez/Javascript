@@ -21,12 +21,12 @@ describe('Controller: MainCtrl', function () {
   it('You can build objects using different types', function () {
 
     var person = { // to allocate memory for an Object, you need the '{}'
-      firstName : "Martin", //You can assign strings
-      age : 27// You can assign numbers
+      firstName : "Martin", //You can assign strings to properties
+      age : 27// You can assign numbers to properties
     };
 
     expect(person.firstName).toBe("Martin");//We can access an object's property with a dot
-    expect(person.age).toBe(27);//We can access an object's property with a dot
+    expect(person.age).toBe(27);//We can access all the object's properties
   });
 
   it('You can change the property values of an object', function () {
@@ -48,7 +48,7 @@ describe('Controller: MainCtrl', function () {
       programmingLanguages : programmingLanguages // You are assigning a reference to the array
     };
     person.programmingLanguages.push('Java');
-    expect(person.programmingLanguages.length).toBe(programmingLanguages.length); //the property and the array have the same length since you pushed the item to the same array
+    expect(person.programmingLanguages.length).toBe(programmingLanguages.length); //the property and the array have the same length since we pushed the item to the same array
   });
 
   it('You can add new properties to objects after they have been created', function () {
