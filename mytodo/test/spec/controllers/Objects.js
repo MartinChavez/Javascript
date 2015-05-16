@@ -20,7 +20,7 @@ describe('Controller: MainCtrl', function () {
   /* Containers of related information */
   it('You can build objects using different types', function () {
 
-    var person = { // to allocate memory for an Object, you need the {}
+    var person = { // to allocate memory for an Object, you need the '{}'
       firstName : "Martin", //You can assign strings
       age : 27// You can assign numbers
     };
