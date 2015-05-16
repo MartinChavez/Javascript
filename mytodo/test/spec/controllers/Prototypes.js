@@ -134,7 +134,6 @@ describe('Controller: MainCtrl', function () {
     var martinPerson = new Person("Martin", "Chavez");
 
     expect(martinPerson.fullName()).toBe("Martin Chavez");
-
   });
 
 });
