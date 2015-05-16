@@ -46,4 +46,95 @@ describe('Controller: MainCtrl', function () {
     expect("String".lengthPlusOne()).toBe(7);
 
   });
+
+  /*Constructors*/
+  it('Using Inheritance, we can create new Objects with our existing Objects as Prototypes', function () {
+    var person = { firstName: "Martin" , age: 27};
+
+    var newPerson = Object.create(person); //The first argument of the Object.create method will be used as the prototype of the newly created Object
+    //The newPerson Object inherited all of the properties from person, same way as a prototype
+    expect(newPerson.firstName).toBe("Martin");
+    expect(newPerson.age).toBe(27);
+
+  });
+
+  it('You can add new properties to an object without modifying the parent prototype', function () {
+    var person = { firstName: "Martin" , age: 27};
+    var newPerson = Object.create(person);
+    newPerson.lastName = "Chavez";
+
+    expect(newPerson.lastName).toBe("Chavez");
+    expect(person.lastName).toBeUndefined(); //property 'lastName' does not exists on person object
+  });
+
+  it('You can verify that an object is a prototype of another object', function () {
+    var person = { firstName: "Martin" , age: 27};
+    var newPerson = Object.create(person);
+
+    expect(Object.prototype.isPrototypeOf(newPerson)).toBe(true);
+    expect(person.isPrototypeOf(newPerson)).toBe(true); //The isPrototypeOf method will look upward through the entire hierarchy (prototype chain)
+    //to see whether the Object.prototype Object is a prototypical ancestor of newPerson
+    expect(newPerson.isPrototypeOf(person)).toBe(false);
+  });
+
+  it('You can create generic objects and build all the inherited objects with such properties', function () {
+    var person = { firstName: undefined ,  lastName: undefined , age: undefined};
+    var newPerson = Object.create(person);
+
+    newPerson.firstName = "Martin";
+    newPerson.lastName = "Chavez";
+    newPerson.age = 27;
+
+    expect(newPerson.firstName).toBe("Martin");
+  });
+
+  /*Class :  Set of Objects that inherit properties from the same prototype*/
+
+  it('You can create Constructors that allow to set up inheritance while also assigning specific property values', function () {
+    //Capitalizing this function's name distinguishes it as a maker of an entire "Class" of objects
+    function Person (firstName, lastName ,age){
+      //'this' keyword inside a constructor will automatically refer to the new instance of the class that is being made
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.age = age;
+    }
+
+    //'new' keyword produces a new Object of the class
+    var martinPerson = new Person("Martin", "Chavez", 27);
+
+    expect(martinPerson.firstName).toBe("Martin");
+    expect(martinPerson.lastName).toBe("Chavez");
+    expect(martinPerson.age).toBe(27);
+  });
+
+  it('You can assign a prototype to a constructor', function () {
+    function Person (firstName, lastName ,age){
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.age = age;
+    }
+    //Setting a constructor prototype property allows then instances to access these properties
+    Person.prototype = {
+      address: "House 123"
+    };
+    var martinPerson = new Person("Martin", "Chavez", 27); //There is no need to define the address for each person
+    expect(martinPerson.address).toBe("House 123");
+
+  });
+  it('You can modify the message functions in a prototype to use the data values in the calling instance', function () {
+    function Person (firstName, lastName){
+      this.firstName = firstName;
+      this.lastName = lastName;
+    }
+
+    Person.prototype = {
+      //'this' keyword searches for the particular Object(Person) that called the inherited function and retrieves the data from it
+      fullName: function() { return(this.firstName + " " + this.lastName); }
+    };
+    var martinPerson = new Person("Martin", "Chavez");
+
+    expect(martinPerson.fullName()).toBe("Martin Chavez");
+
+  });
+
 });
