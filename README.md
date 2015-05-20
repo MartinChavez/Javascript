@@ -36,9 +36,11 @@ Example: Arrays
   /*Arrays*/
   /* An array is a data structure with automatically indexed positions*/
   it('Arrays can be accessed by indices', function () {
-    //The brackets indicate to the compiler to make an array and fill it with the comma-separated values between the brackets
+    //The brackets indicate to the compiler to make an array and fill it with
+    //the comma-separated values between the brackets
     var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
-    expect(arrayOfStrings[1]).toBe("StringOne");//We can access any location of the zero-based array
+    //We can access any location of the zero-based array
+    expect(arrayOfStrings[1]).toBe("StringOne");
   });
   it('You can reference and change specific cells with indices', function () {
     var arrayOfStrings = [ "StringOne" , "StringOne" , "StringTwo"];
@@ -51,7 +53,8 @@ Example: Arrays
   });
   it('Pop() function removes a cell from the back of the array', function () {
     var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
-    expect(arrayOfStrings.pop()).toBe("StringTwo");//Pop() function deletes the last position and retrieves its value
+    //Pop() function deletes the last position and retrieves its value
+    expect(arrayOfStrings.pop()).toBe("StringTwo");
     expect(arrayOfStrings.length).toBe(2);//The array length automatically adjusts
   });
   it('shift() function removes a cell from the beginning of the array', function () {
