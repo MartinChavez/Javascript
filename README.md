@@ -39,3 +39,8 @@ grunt test
 ```
 
 [<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/Run+Tests.png"  />](https://github.com/MartinChavez/Learn-Javascript)
+
+References
+====================
+
+* [Code School](https://www.codeschool.com/)
