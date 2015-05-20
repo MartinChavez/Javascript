@@ -31,13 +31,18 @@ Example: Arrays
 
 <a name="README">[<img src="https://s3-us-west-2.amazonaws.com/martinbucket/arrays.png"  />](https://github.com/MartinChavez/Learn-Javascript)</a>
 
+Install
+====================
+```Terminal
+npm install
+bower install
+```
+
 Run the Tests
 ====================
-
 ```Javascript
 grunt test
 ```
-
 [<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/Run+Tests.png"  />](https://github.com/MartinChavez/Learn-Javascript)
 
 References
