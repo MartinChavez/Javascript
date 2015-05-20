@@ -30,3 +30,10 @@ Example: Arrays
 ====================
 
 <a name="README">[<img src="https://s3-us-west-2.amazonaws.com/martinbucket/arrays.png"  />](https://github.com/MartinChavez/Learn-Javascript)</a>
+
+Run the Tests
+====================
+
+grunt test
+
+[<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/Run+Tests.png"  />](https://github.com/MartinChavez/Learn-Javascript)
