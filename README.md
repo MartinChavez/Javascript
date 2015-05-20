@@ -59,38 +59,46 @@ Example: Arrays
   });
   it('shift() function removes a cell from the beginning of the array', function () {
     var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
-    expect(arrayOfStrings.shift()).toBe("StringZero");//shift() function deletes the first position and retrieves its value
+    //shift() function deletes the first position and retrieves its value
+    expect(arrayOfStrings.shift()).toBe("StringZero");
     expect(arrayOfStrings.length).toBe(2);//The array length automatically adjusts
   });
   it('Push() function adds a cell and its contents to the back of the array', function () {
     var arrayOfStrings = [ "StringZero" , "StringOne" ];
     arrayOfStrings.push('StringTwo');
-    expect(arrayOfStrings[2]).toBe("StringTwo");//Push() will add a cell onto the back of the arrays
+    //Push() will add a cell onto the back of the arrays
+    expect(arrayOfStrings[2]).toBe("StringTwo");
     expect(arrayOfStrings.length).toBe(3);//The array length automatically adjusts
   });
   it('Arrays can hold different types of variables ', function () {
     var StringTwoVariable = "StringTwo";
     var arrayOfStrings = [ "StringZero" , 1 , StringTwoVariable];
-    expect(arrayOfStrings[2]).toBe("StringTwo");//When assigning variables to an entry of an array, the variable name is not used, instead the array uses Value of it
+    //When assigning variables to an entry of an array, the variable name is not
+    //used, instead the array uses Value of it
+    expect(arrayOfStrings[2]).toBe("StringTwo"); used, instead the array uses Value of it
   });
   it('Arrays can hold Arrays ', function () {
     var firstArrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
     var secondArrayOfStrings = [ "StringThree" , "StringFour" , "StringFive"];
     var firstAndSecondArrays = [firstArrayOfStrings , secondArrayOfStrings];
     expect(typeof firstAndSecondArrays).toBe("object");//Arrays are treated as objects
-    expect(firstAndSecondArrays[1][0]).toBe("StringThree");//You can access any index of the composed array
+    //You can access any index of the composed array
+    expect(firstAndSecondArrays[1][0]).toBe("StringThree");
   });
   it('Arrays can hold undefined values ', function () {
     var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
-    arrayOfStrings[1] = undefined; //to make a cell empty. we can use the keyword 'undefined', which means 'NO CONTENTS'
+    //to make a cell empty. we can use the keyword 'undefined', which means 'NO CONTENTS'
+    arrayOfStrings[1] = undefined; 
     expect(typeof arrayOfStrings[1]).toBe("undefined");
     expect(arrayOfStrings[1]).toBe(undefined);
-    expect(arrayOfStrings.length).toBe(3);//The array length does not change when some of the values are undefined
+    //The array length does not change when some of the values are undefined
+    expect(arrayOfStrings.length).toBe(3);
   });
   it('Arrays can be created with no values', function () {
     var arrayOfStrings = [];
     expect(typeof arrayOfStrings).toBe("object");
-    expect(arrayOfStrings[1]).toBe(undefined); //When you access an index of the array with no value, the array returns 'undefined'
+    //When you access an index of the array with no value, the array returns 'undefined'
+    expect(arrayOfStrings[1]).toBe(undefined); 
     expect(arrayOfStrings.length).toBe(0);
   });
 ```
