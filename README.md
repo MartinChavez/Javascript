@@ -18,8 +18,11 @@ Topics
  - Functions
  - Hoisting
  - Loops
+ - Object Prototype
  - Objects
  - Objects Functionality
+ - Prototype
+ - Strings
  - Variables
 
 
