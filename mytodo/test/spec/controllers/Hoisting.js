@@ -1,7 +1,7 @@
 'use strict';
 
 describe('Hoisting', function () {
-  
+
   /*Hoisting*/
   /* Program load order*/
   it('Javascript loads functions and variables that need space in memory first', function () {

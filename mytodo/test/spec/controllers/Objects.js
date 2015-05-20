@@ -1,7 +1,7 @@
 'use strict';
 
 describe('Objects', function () {
-  
+
   /*Objects*/
   /* Containers of related information */
   it('You can build objects using different types', function () {
