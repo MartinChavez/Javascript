@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="429e6de1-54c8-4bf0-80c1-cd910b2366fa" name="Default" comment="" />
+    <list default="true" id="429e6de1-54c8-4bf0-80c1-cd910b2366fa" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\.buildignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\404.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\images\yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\scripts\app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\scripts\controllers\about.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\scripts\controllers\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\styles\main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\views\about.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\app\views\main.html" afterPath="" />
+    </list>
     <ignored path="LearnJavascript.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,6 +139,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LearnJavascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnJavascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learn-Javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnJavascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnJavascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learn-Javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnJavascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
