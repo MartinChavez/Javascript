@@ -33,7 +33,7 @@ Tools
 Example: Arrays
 ====================
 ```Javascript
-/*Arrays*/
+  /*Arrays*/
   /* An array is a data structure with automatically indexed positions*/
   it('Arrays can be accessed by indices', function () {
     //The brackets indicate to the compiler to make an array and fill it with the comma-separated values between the brackets
@@ -84,7 +84,7 @@ Example: Arrays
     expect(arrayOfStrings[1]).toBe(undefined);
     expect(arrayOfStrings.length).toBe(3);//The array length does not change when some of the values are undefined
   });
-  it('Arrays can be created with no values ', function () {
+  it('Arrays can be created with no values', function () {
     var arrayOfStrings = [];
     expect(typeof arrayOfStrings).toBe("object");
     expect(arrayOfStrings[1]).toBe(undefined); //When you access an index of the array with no value, the array returns 'undefined'
