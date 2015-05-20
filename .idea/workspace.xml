@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="429e6de1-54c8-4bf0-80c1-cd910b2366fa" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\package.json" afterPath="" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\.bowerrc" afterPath="$PROJECT_DIR$/LearnJavascript/.bowerrc" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\.gitignore" afterPath="$PROJECT_DIR$/LearnJavascript/.gitignore" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\.jshintrc" afterPath="$PROJECT_DIR$/LearnJavascript/.jshintrc" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\.travis.yml" afterPath="$PROJECT_DIR$/LearnJavascript/.travis.yml" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\Gruntfile.js" afterPath="$PROJECT_DIR$/LearnJavascript/Gruntfile.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\.buildignore" afterPath="$PROJECT_DIR$/LearnJavascript/app/.buildignore" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\.htaccess" afterPath="$PROJECT_DIR$/LearnJavascript/app/.htaccess" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\404.html" afterPath="$PROJECT_DIR$/LearnJavascript/app/404.html" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\favicon.ico" afterPath="$PROJECT_DIR$/LearnJavascript/app/favicon.ico" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\images\yeoman.png" afterPath="$PROJECT_DIR$/LearnJavascript/app/images/yeoman.png" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\index.html" afterPath="$PROJECT_DIR$/LearnJavascript/app/index.html" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\robots.txt" afterPath="$PROJECT_DIR$/LearnJavascript/app/robots.txt" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\scripts\app.js" afterPath="$PROJECT_DIR$/LearnJavascript/app/scripts/app.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\scripts\controllers\about.js" afterPath="$PROJECT_DIR$/LearnJavascript/app/scripts/controllers/about.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\scripts\controllers\main.js" afterPath="$PROJECT_DIR$/LearnJavascript/app/scripts/controllers/main.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\styles\main.css" afterPath="$PROJECT_DIR$/LearnJavascript/app/styles/main.css" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\views\about.html" afterPath="$PROJECT_DIR$/LearnJavascript/app/views/about.html" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\app\views\main.html" afterPath="$PROJECT_DIR$/LearnJavascript/app/views/main.html" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\bower.json" afterPath="$PROJECT_DIR$/LearnJavascript/bower.json" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\.jshintrc" afterPath="$PROJECT_DIR$/LearnJavascript/test/.jshintrc" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\karma.conf.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/karma.conf.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\Arrays.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Arrays.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\Booleans.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Booleans.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\BuiltInFunctions.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/BuiltInFunctions.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\Closure.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Closure.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\Conditionals.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Conditionals.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\FunctionExpressions.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/FunctionExpressions.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\FunctionExpressionsAsParameters.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/FunctionExpressionsAsParameters.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\Functions.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Functions.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\Hoisting.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Hoisting.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\Loops.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Loops.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\ObjectPrototype.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/ObjectPrototype.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\Objects.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Objects.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\ObjectsFunctionality.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/ObjectsFunctionality.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\Prototypes.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Prototypes.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\Strings.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Strings.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers\Variables.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Variables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="429e6de1-54c8-4bf0-80c1-cd910b2366fa" name="Default" comment="" />
     <ignored path="LearnJavascript.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
