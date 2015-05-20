@@ -1,20 +1,6 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
-
-  // load the controller's module
-  beforeEach(module('mytodoApp'));
-
-  var MainCtrl,
-    scope;
-
-  // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope) {
-    scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
-      $scope: scope
-    });
-  }));
+describe('Object Functionality', function () {
 
   /*Object Functionality*/
   it('Properties can be functions', function () {
@@ -68,7 +54,5 @@ describe('Controller: MainCtrl', function () {
       var foundProperty = (propertyName === "firstName" || propertyName === "age");
       expect(foundProperty).toBe(true);
     }
-
   });
-
 });

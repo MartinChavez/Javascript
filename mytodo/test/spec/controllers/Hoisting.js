@@ -1,21 +1,7 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
-
-  // load the controller's module
-  beforeEach(module('mytodoApp'));
-
-  var MainCtrl,
-    scope;
-
-  // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope) {
-    scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
-      $scope: scope
-    });
-  }));
-
+describe('Hoisting', function () {
+  
   /*Hoisting*/
   /* Program load order*/
   it('Javascript loads functions and variables that need space in memory first', function () {
@@ -39,7 +25,6 @@ describe('Controller: MainCtrl', function () {
       function functionResult() { //This function gets loaded at the top at first
         return 3;
       }
-
       return functionResult();
 
       function functionResult() { //This function gets loaded at the after the first function, since it has the same name, the first function is destroyed

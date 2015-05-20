@@ -1,20 +1,6 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
-
-  // load the controller's module
-  beforeEach(module('mytodoApp'));
-
-  var MainCtrl,
-    scope;
-
-  // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope) {
-    scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
-      $scope: scope
-    });
-  }));
+describe('Prototypes', function () {
 
   /*Prototypes*/
   /* Objects have properties that belong to and come from the Object's (parent of all object's) prototype*/

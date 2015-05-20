@@ -1,20 +1,6 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
-
-  // load the controller's module
-  beforeEach(module('mytodoApp'));
-
-  var MainCtrl,
-    scope;
-
-  // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope) {
-    scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
-      $scope: scope
-    });
-  }));
+describe('Object Prototype', function () {
 
   /*Useful Properties in the Object Prototype*/
   it('you can use valueOf to retrieve the primitive type associated with an object', function () {

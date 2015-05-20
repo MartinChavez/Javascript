@@ -1,20 +1,6 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
-
-  // load the controller's module
-  beforeEach(module('mytodoApp'));
-
-  var MainCtrl,
-    scope;
-
-  // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope) {
-    scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
-      $scope: scope
-    });
-  }));
+describe('Functions', function () {
 
   /*Functions*/
   /*Functions take some input, executes a series of statements using the input and outputs some result*/
@@ -56,5 +42,4 @@ describe('Controller: MainCtrl', function () {
     localFunction();
     expect(localVariable).toBe(6);
   });
-
 });

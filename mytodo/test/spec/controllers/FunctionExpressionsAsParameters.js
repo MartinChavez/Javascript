@@ -1,20 +1,6 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
-
-  // load the controller's module
-  beforeEach(module('mytodoApp'));
-
-  var MainCtrl,
-    scope;
-
-  // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope) {
-    scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
-      $scope: scope
-    });
-  }));
+describe('Function Expressions as Parameters', function () {
 
   /*Function Expressions as Parameters*/
   it('Map function takes in a function as a parameter and returns a new array with the results', function () {
@@ -43,7 +29,6 @@ describe('Controller: MainCtrl', function () {
   function concatenateString(side) {
 
     if (side === "rightSide") {
-
       return function (stringValue) {
         return stringValue + "String";
       };
@@ -55,5 +40,4 @@ describe('Controller: MainCtrl', function () {
       };
     }
   }
-
 });

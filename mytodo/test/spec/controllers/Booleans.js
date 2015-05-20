@@ -1,20 +1,10 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
+describe('Booleans', function () {
 
-  // load the controller's module
-  beforeEach(module('mytodoApp'));
-
-  var MainCtrl,
-    scope;
-
-  // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope) {
-    scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
-      $scope: scope
-    });
-  }));
+  /*Boolean : Represents one of two values: true or false.
+  * We will demonstrate the use of this type with different operators and comparators.
+  * */
 
   /*Operators*/
   /*Common Operators used in Javascript Language*/
@@ -47,5 +37,4 @@ describe('Controller: MainCtrl', function () {
   it('Not Equals', function () {
     expect(4!=5).toBe(true);
   });
-
 });
