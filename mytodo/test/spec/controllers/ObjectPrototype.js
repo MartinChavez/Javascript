@@ -61,7 +61,7 @@ describe('Controller: MainCtrl', function () {
     var fiveString = "5";
 
     expect(fiveNumber.toString()).toBe("5");
-    //there is no effect for strings
+    //there is no effect in using toString() for strings
     expect(fiveString.toString()).toBe("5");
 
     var fiveDotTwo = 5.2; //toString() also works with numbers and decimals
