@@ -1,21 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Arrays.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Booleans.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/BuiltInFunctions.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Closure.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Conditionals.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/FunctionExpressions.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/FunctionExpressionsAsParameters.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Functions.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Hoisting.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Loops.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/ObjectPrototype.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Objects.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/ObjectsFunctionality.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Prototypes.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Strings.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mytodo/test/spec/controllers/Variables.js" charset="UTF-8" />
-  </component>
-</project>
+<project version="4" />
