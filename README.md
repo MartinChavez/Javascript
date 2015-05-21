@@ -23,7 +23,10 @@ Topics
  - Objects Functionality
  - Prototype
  - Strings
+ - Ternary Conditionals
  - Variables
+ - Truthy Values
+ - Falsey Values
 
 Tools
 ====================
