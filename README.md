@@ -28,7 +28,7 @@ Topics
 Tools
 ====================
 <a name="README">[<img src="https://camo.githubusercontent.com/39242419c60a53e1f3cecdeecb2460acce47366f/687474703a2f2f6772756e746a732e636f6d2f696d672f6772756e742d6c6f676f2d6e6f2d776f72646d61726b2e737667" width="50px" height="50px" />](https://github.com/gruntjs/grunt)</a>
-<a name="README">[<img src="https://karma-runner.github.io/assets/img/banner.png" width="160px" height="80px" />](https://karma-runner.github.io/0.12/index.html)</a>
+<a name="README">[<img src="https://karma-runner.github.io/assets/img/banner.png" width="50px" height="50px" />](https://karma-runner.github.io/0.12/index.html)</a>
 
 Example: Arrays
 ====================
