@@ -79,6 +79,4 @@ describe('Ternary Conditionals', function () {
     expect(assignedVariable).toBe(true);
     expect(assignedVariableTwo).toBe(true);
   });
-
-
 });
