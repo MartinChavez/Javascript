@@ -34,6 +34,16 @@ describe('Arrays', function () {
     expect(arrayOfStrings[2]).toBe("StringTwo");//Push() will add a cell onto the back of the arrays
     expect(arrayOfStrings.length).toBe(3);//The array length automatically adjusts
   });
+
+  it('splice() function removes elements anywhere in an array', function () {
+    var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
+    //The first argument is the index where you want to start
+    //The second argument is the number of elements you want to remove
+    arrayOfStrings.splice(1,1);
+    expect(arrayOfStrings[1]).toBe("StringTwo");
+    expect(arrayOfStrings.length).toBe(2);//The array length automatically adjusts
+  });
+
   it('Arrays can hold different types of variables ', function () {
     var StringTwoVariable = "StringTwo";
     var arrayOfStrings = [ "StringZero" , 1 , StringTwoVariable];

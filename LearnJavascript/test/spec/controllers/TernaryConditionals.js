@@ -21,7 +21,7 @@ describe('Ternary Conditionals', function () {
     value = (true) ? true : false;
     expect(value).toBe(true);
   });
-  
+
   it('A Ternary operator can execute expressions', function () {
     var assignedVariable;
       //You can add several conditions before the ?

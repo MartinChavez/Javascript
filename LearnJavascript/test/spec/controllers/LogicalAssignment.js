@@ -29,14 +29,27 @@ describe('Logical Assignment', function () {
     object.addValueToArray(5);
     expect(object.objectArray[0]).toBe(5);
   });
-  it('Logical Operators results', function () {
-    //If all the values are truthy, the || assignment returns the first thruthy value
+  it('Logical Operators results for ||', function () {
+    //The || assignment returns the first thruthy value
     expect(4||5).toBe(4);
-    //If all some values are truthy and others are falsey, the || assignment returns the first thruthy value
+    //If some values are truthy and others are falsey, the || assignment returns the first thruthy value
     expect(4||0).toBe(4);
     expect(0||4).toBe(4);
-    //If all some values  are falsey, the || assignment returns the last element
-    expect(0||""||undefined).toBe(undefined);
+    //If all  values  are falsey, the || assignment returns the last element
+    expect(0||""||undefined).toBeUndefined();
+  });
+
+  it('Logical Operators results for &&', function () {
+    //The && assignment returns the right-most thruthy value
+    expect(4&&5).toBe(5);
+    expect(5&&4).toBe(4);
+    //The && assignment returns the first falsey value
+    expect(4&&5&&0).toBe(0);
+    expect(5&&4&&undefined).toBeUndefined();
+    expect(""&&null&&0).toBe("");
+
+    //If all  values  are truthy, the && assignment returns the last element
+    expect(1&&2&&3).toBe(3);
   });
 
 });
