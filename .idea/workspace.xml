@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="429e6de1-54c8-4bf0-80c1-cd910b2366fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Arrays.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Arrays.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/LogicalAssignment.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/LogicalAssignment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/TernaryConditionals.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/TernaryConditionals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/SwitchBlock.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnJavascript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,101 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LogicalAssignment.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/LogicalAssignment.js">
+      <file leaf-file-name="SwitchBlock.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/SwitchBlock.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7413555">
-              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Arrays.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Objects.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Objects.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="79" column="90" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FunctionExpressionsAsParameters.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/FunctionExpressionsAsParameters.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectPrototype.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/ObjectPrototype.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectsFunctionality.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/ObjectsFunctionality.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Prototypes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Prototypes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TernaryConditionals.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/TernaryConditionals.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TruthyValues.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/TruthyValues.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FalsyValues.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/FalsyValues.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -166,6 +75,7 @@
         <option value="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/TernaryConditionals.js" />
         <option value="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/LogicalAssignment.js" />
         <option value="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Arrays.js" />
+        <option value="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/SwitchBlock.js" />
       </list>
     </option>
   </component>
@@ -180,7 +90,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
@@ -424,10 +334,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17650159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17650159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854405" sideWeight="0.4214963" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -678,14 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Loops.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/ObjectPrototype.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -704,7 +606,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Objects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.1230983">
           <caret line="79" column="90" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="90" />
           <folding />
         </state>
@@ -712,7 +614,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/ObjectsFunctionality.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.7704011">
           <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
           <folding />
         </state>
@@ -720,7 +622,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Prototypes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-1.1811895">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -728,7 +630,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/FalsyValues.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.4702628">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
@@ -736,7 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/TruthyValues.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.32918397">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
@@ -744,7 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/TernaryConditionals.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.4702628">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding />
         </state>
@@ -752,7 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Arrays.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.3098202">
           <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
           <folding />
         </state>
@@ -760,8 +662,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/LogicalAssignment.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Loops.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/SwitchBlock.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7413555">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding />
         </state>
       </provider>
