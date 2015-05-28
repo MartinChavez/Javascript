@@ -9,24 +9,26 @@ Topics
 ================
  - Arrays
  - Booleans
- - Strings
  - Built-in Functions
  - Closure
  - Conditionals
+ - Falsey Values
  - Function Expressions
  - Function Expressions as Parameters
  - Functions
  - Hoisting
+ - Locial Assignment
  - Loops
  - Object Prototype
  - Objects
  - Objects Functionality
- - Prototype
+ - Prototypes
  - Strings
+ - Switch Block
  - Ternary Conditionals
- - Variables
  - Truthy Values
- - Falsey Values
+ - Variables
+
 
 Tools
 ====================
