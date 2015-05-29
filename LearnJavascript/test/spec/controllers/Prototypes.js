@@ -122,4 +122,22 @@ describe('Prototypes', function () {
     expect(martinPerson.fullName()).toBe("Martin Chavez");
   });
 
+  /*Performance Optimizations*/
+  it('You can improve the memory efficiency of the program by adding common functionality on objects prototype', function () {
+    function Person (firstName, lastName){
+      this.firstName = firstName;
+      this.lastName = lastName;
+    }
+
+    Person.prototype = {
+      //By adding this array to the prototype, we don't have to create an array every time we create a Person's object
+      longArray : [0,1,2,3,4,5,6,7,8,9]
+    };
+    var martinPerson = new Person("Martin", "Chavez");
+    var corriePerson = new Person("Corrie", "McQueen");
+
+    expect(martinPerson.longArray[0]).toBe(0);
+    expect(corriePerson.longArray[1]).toBe(1);
+  });
+
 });
