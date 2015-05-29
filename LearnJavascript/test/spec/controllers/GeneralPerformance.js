@@ -13,8 +13,7 @@ describe('General Performance Concepts', function () {
 
   /*DOM Manipulation*/
   it('Adding individual DOM Elements is a bad practice due to reflow', function () {
-   //Let's pretend we find a ul DOM element
-    var ulDomElement = document.getElementById("ul");
+    var ulDomElement = document.createElement("ul");
     var contentOfLiElements = ["1","2","3"];
 
     for(var index = 0; index < contentOfLiElements.length; index++){
@@ -27,7 +26,7 @@ describe('General Performance Concepts', function () {
 
   it('Use a document Fragment to insert additions all at once', function () {
     //Fragments are invisible containers that hold multiple DOM elements without being a node itself
-    var ulDomElement = document.getElementById("ul");
+    var ulDomElement = document.createElement("ul");
     var contentOfLiElements = ["1","2","3"];
 
     var fragment = document.createDocumentFragment();
@@ -41,7 +40,7 @@ describe('General Performance Concepts', function () {
 
   it('Declare variables as few times as possible', function () {
     //Every var keyword adds a look-up for the JavaScript parser that can be avoided with comma extensions
-    var ulDomElement = document.getElementById("ul"),
+    var ulDomElement = document.createElement("ul"),
         contentOfLiElements = ["1","2","3"],
         fragment = document.createDocumentFragment(),
         liElement;

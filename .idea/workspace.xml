@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="429e6de1-54c8-4bf0-80c1-cd910b2366fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/GeneralPerformance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Prototypes.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Prototypes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/GeneralPerformance.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/GeneralPerformance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Strings.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Strings.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnJavascript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,8 +88,18 @@
       <file leaf-file-name="GeneralPerformance.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/GeneralPerformance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8589212">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.52973723">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Strings.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Strings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -150,6 +159,7 @@
         <option value="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Loops.js" />
         <option value="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Prototypes.js" />
         <option value="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/GeneralPerformance.js" />
+        <option value="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Strings.js" />
       </list>
     </option>
   </component>
@@ -164,7 +174,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
@@ -408,7 +418,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17650159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -780,10 +790,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Strings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/GeneralPerformance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8589212">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.52973723">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="16" />
           <folding />
         </state>
       </provider>

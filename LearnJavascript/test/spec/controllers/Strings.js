@@ -28,4 +28,28 @@ describe('Strings', function () {
   it('Length of strings can be accessed with the .length property', function () {
     expect("ThisStringIsVeryLong".length).toBe(20);
   });
+
+  /*Performance*/
+  it('Use standard concatenation for small string concatenation', function () {
+    //Standard concatenation operator has been optimized in most modern browser versions
+    var stringOne = "StringOne";
+    var stringTwo = "StringTwo";
+    var stringThree = "StringThree";
+
+    var finalString = "";
+    finalString += stringOne;
+    finalString += stringTwo;
+    finalString += stringThree;
+
+    expect(finalString).toBe("StringOneStringTwoStringThree");
+  });
+
+  it('When strings are present in an array, use the join() method', function () {
+    //The join() method is inherited from the Array Prototype
+    var stringArrays = ["StringOne","StringTwo","StringThree"];
+    //Apart for performing better than string concatenation, the code becomes more readable
+    expect(stringArrays.join("")).toBe("StringOneStringTwoStringThree");
+  });
+
+
 });
