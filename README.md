@@ -16,6 +16,7 @@ Topics
  - Function Expressions
  - Function Expressions as Parameters
  - Functions
+ - General Performance
  - Hoisting
  - Locial Assignment
  - Loops
