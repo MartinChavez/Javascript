@@ -30,6 +30,7 @@ describe('Strings', function () {
   });
 
   /*Performance*/
+
   it('Use standard concatenation for small string concatenation', function () {
     //Standard concatenation operator has been optimized in most modern browser versions
     var stringOne = "StringOne";
