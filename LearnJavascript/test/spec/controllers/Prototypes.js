@@ -23,7 +23,7 @@ describe('Prototypes', function () {
   });
 
   /*You can add base functionality to all objects of the same type*/
-  it('Adding a nre function into the Strings Prototype', function () {
+  it('Adding a new function into the Strings Prototype', function () {
     //.prototype finds the prototype for all Strings values everywhere
     String.prototype.lengthPlusOne = function (){ // By adding a function to the String Prototype,it makes it inheritable by all the Strings
       return this.length+1;
