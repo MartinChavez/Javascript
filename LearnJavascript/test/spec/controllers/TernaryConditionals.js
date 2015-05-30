@@ -36,7 +36,7 @@ describe('Ternary Conditionals', function () {
     /*Resetting to false in order to use ternary operator for more than one function*/
     assignedVariable = false;
      var  assignedVariableTwo = false;
-    (true) ? function (){ assignedVariable = true, assignedVariableTwo = true}() : function (){ assignedVariable = true, assignedVariableTwo = false}();
+    (true) ? function (){ assignedVariable = true, assignedVariableTwo = true}() : function (){ assignedVariable = false, assignedVariableTwo = false}();
     expect(assignedVariable).toBe(true);
     expect(assignedVariableTwo).toBe(true);
   });

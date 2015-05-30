@@ -53,4 +53,33 @@ describe('General Performance Concepts', function () {
     ulDomElement.appendChild(fragment);
   });
 
+  it('you can use time and timeEnd to measure the performance of functions in an easy manner', function () {
+    //Be aware that the creation of the console.time object is time consuming and it adds to the total elapsed time
+    console.time("timer");
+    var times = 0;
+    while(times < 100){
+      times++;
+    }
+    console.timeEnd("timer");
+  });
+
+  it('you can use Date Objects to accurately measure performance', function () {
+    //Date object immediately captures the current date and time
+    var dateObject = new Date();
+    expect(typeof(dateObject)).toEqual('object');
+    //By placing a '+' unary operator in front of the Date Object, we can retrieve the value in milliseconds
+    expect(typeof(+dateObject)).toEqual('number');
+
+    var start = +new Date();
+    var times = 0;
+    while(times < 100){
+      times++;
+    }
+    var end = +new Date();
+    //The difference between the two values will be the amount of time that passed between the creation of both variables
+    var elapsedTime = end - start;
+    expect(elapsedTime).toBeLessThan(1);
+
+  });
+
 });
