@@ -2,19 +2,20 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/LearnJavascript/.gitignore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/node_modules/grunt-ngmin/node_modules/ngmin/test/directive.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LearnJavascript/test/karma.conf.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Arrays.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/BadPracticesAndSolutions.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Comparisons.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Exceptions.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/FalsyValues.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/GeneralPerformance.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/LogicalAssignment.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Loops.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Prototypes.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Strings.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/SwitchBlock.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/TernaryConditionals.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/controllers/TruthyValues.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Arrays.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/BadPracticesAndSolutions.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Comparisons.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Exceptions.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/FalsyValues.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/GeneralPerformance.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/LogicalAssignment.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Loops.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Prototypes.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Strings.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/SwitchBlock.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/TernaryConditionals.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/TruthyValues.js" charset="UTF-8" />
   </component>
 </project>
