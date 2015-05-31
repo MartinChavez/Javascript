@@ -78,7 +78,7 @@ describe('General Performance Concepts', function () {
     var end = +new Date();
     //The difference between the two values will be the amount of time that passed between the creation of both variables
     var elapsedTime = end - start;
-    expect(elapsedTime).toBeLessThan(1);
+    expect(elapsedTime).toBeLessThan(5);
 
   });
 
