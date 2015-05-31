@@ -2,31 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="429e6de1-54c8-4bf0-80c1-cd910b2366fa" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Arrays.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\BadPracticesAndSolutions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Booleans.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\BuiltInFunctions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Closure.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Comparisons.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Conditionals.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Exceptions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\FalsyValues.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\FunctionExpressions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\FunctionExpressionsAsParameters.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\GeneralPerformance.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Hoisting.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\LogicalAssignment.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Loops.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\ObjectPrototype.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Objects.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\ObjectsFunctionality.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Prototypes.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Strings.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\SwitchBlock.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\TernaryConditionals.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\TruthyValues.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Variables.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Arrays.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\BadPracticesAndSolutions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Booleans.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\BuiltInFunctions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Closure.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Comparisons.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Conditionals.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Exceptions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\FalsyValues.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\FunctionExpressions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\FunctionExpressionsAsParameters.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Functions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\GeneralPerformance.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Hoisting.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\LogicalAssignment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Loops.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\ObjectPrototype.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Objects.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\ObjectsFunctionality.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Prototypes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Strings.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\SwitchBlock.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\TernaryConditionals.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\TruthyValues.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\Topics\Variables.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnJavascript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,21 +49,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/karma.conf.js">
+      <file leaf-file-name="Loops.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Loops.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/node_modules/grunt-ngmin/Gruntfile.js">
+      <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LearnJavascript/test/karma.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5400553">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.39917126">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -116,9 +118,9 @@
         <option value="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/Exceptions.js" />
         <option value="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/BadPractices.js" />
         <option value="$PROJECT_DIR$/LearnJavascript/test/spec/controllers/BadPracticesAndSolutions.js" />
-        <option value="$PROJECT_DIR$/LearnJavascript/test/karma.conf.js" />
         <option value="$PROJECT_DIR$/LearnJavascript/.gitignore" />
         <option value="$PROJECT_DIR$/LearnJavascript/node_modules/grunt-ngmin/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/LearnJavascript/test/karma.conf.js" />
       </list>
     </option>
   </component>
@@ -211,7 +213,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="Topics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,14 +232,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Topics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,6 +272,9 @@
       <recent name="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers" />
       <recent name="C:\MartinSoftware\Learn-Javascript\mytodo\test\spec\controllers" />
       <recent name="C:\MartinSoftware\LearnJavascript\mytodo\test\spec\controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MartinSoftware\Learn-Javascript\LearnJavascript" />
     </key>
   </component>
   <component name="RunManager" selected="Grunt.js.Run Unit Tests">
@@ -422,98 +419,98 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/ObjectPrototype.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/ObjectPrototype.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="47" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/TernaryConditionals.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/TernaryConditionals.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/LogicalAssignment.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/LogicalAssignment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Objects.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Objects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Prototypes.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Prototypes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/BuiltInFunctions.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/BuiltInFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Closure.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Closure.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Conditionals.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Conditionals.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/FunctionExpressions.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/FunctionExpressions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/FunctionExpressionsAsParameters.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/FunctionExpressionsAsParameters.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Functions.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Loops.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Loops.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/ObjectPrototype.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/ObjectPrototype.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="47" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/TernaryConditionals.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/TernaryConditionals.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -527,161 +524,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Booleans.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Booleans.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/BuiltInFunctions.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/BuiltInFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Closure.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Closure.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Conditionals.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Conditionals.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/FunctionExpressions.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/FunctionExpressions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/FunctionExpressionsAsParameters.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/FunctionExpressionsAsParameters.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/FalsyValues.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/FalsyValues.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4702628">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/TruthyValues.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/TruthyValues.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32918397">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/LogicalAssignment.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/LogicalAssignment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39823008">
           <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/SwitchBlock.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/SwitchBlock.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Loops.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Arrays.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Arrays.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Strings.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Strings.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48180923">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/TernaryConditionals.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/TernaryConditionals.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6017699">
           <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Functions.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7020649">
           <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Objects.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Objects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71823204">
           <caret line="79" column="90" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/ObjectsFunctionality.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/ObjectsFunctionality.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6477901">
           <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/ObjectPrototype.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/ObjectPrototype.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71823204">
           <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Prototypes.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Prototypes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.6298343">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Comparisons.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Comparisons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.586206">
           <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/GeneralPerformance.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/GeneralPerformance.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Exceptions.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Exceptions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.896552">
           <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/spec/Topics/BadPracticesAndSolutions.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/BadPracticesAndSolutions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22513813">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
@@ -741,13 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/.jshintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavascript/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -772,18 +755,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearnJavascript/node_modules/grunt-ngmin/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5400553">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Loops.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/.jshintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/test/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39917126">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
         </state>
       </provider>
