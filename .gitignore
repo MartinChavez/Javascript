@@ -44,3 +44,4 @@ Temporary Items
 
 #Webstorm
 .idea/**
+.idea/workspace.xml
