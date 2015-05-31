@@ -1,5 +1,5 @@
 // Karma configuration
-module.exports = function(config) {
+module.exports = function (config) {
   'use strict';
 
   config.set({
@@ -14,12 +14,11 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/spec/**/*.js'
+      'Topics/**/*.js'
     ],
 
     // list of files / patterns to exclude
-    exclude: [
-    ],
+    exclude: [],
 
     // web server port
     port: 8080,
