@@ -2,33 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="429e6de1-54c8-4bf0-80c1-cd910b2366fa" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Arrays.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Arrays.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\BadPracticesAndSolutions.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/BadPracticesAndSolutions.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Booleans.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Booleans.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\BuiltInFunctions.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/BuiltInFunctions.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Closure.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Closure.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Comparisons.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Comparisons.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Conditionals.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Conditionals.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Exceptions.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Exceptions.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\FalsyValues.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/FalsyValues.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\FunctionExpressions.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/FunctionExpressions.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\FunctionExpressionsAsParameters.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/FunctionExpressionsAsParameters.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Functions.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Functions.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\GeneralPerformance.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/GeneralPerformance.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Hoisting.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Hoisting.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\LogicalAssignment.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/LogicalAssignment.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Loops.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Loops.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\ObjectPrototype.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/ObjectPrototype.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Objects.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Objects.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\ObjectsFunctionality.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/ObjectsFunctionality.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Prototypes.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Prototypes.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Strings.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Strings.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\SwitchBlock.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/SwitchBlock.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\TernaryConditionals.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/TernaryConditionals.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\TruthyValues.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/TruthyValues.js" />
-      <change type="MOVED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Variables.js" afterPath="$PROJECT_DIR$/LearnJavascript/test/spec/Topics/Variables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Arrays.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\BadPracticesAndSolutions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Booleans.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\BuiltInFunctions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Closure.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Comparisons.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Conditionals.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Exceptions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\FalsyValues.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\FunctionExpressions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\FunctionExpressionsAsParameters.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Functions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\GeneralPerformance.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Hoisting.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\LogicalAssignment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Loops.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\ObjectPrototype.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Objects.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\ObjectsFunctionality.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Prototypes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Strings.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\SwitchBlock.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\TernaryConditionals.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\TruthyValues.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\MartinSoftware\Learn-Javascript\LearnJavascript\test\spec\controllers\Variables.js" afterPath="" />
     </list>
     <ignored path="LearnJavascript.iws" />
     <ignored path=".idea/workspace.xml" />
