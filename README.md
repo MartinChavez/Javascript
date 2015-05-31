@@ -8,10 +8,13 @@ A project aimed to help the user master Javascipt with a test-driven approach. E
 Topics
 ================
  - Arrays
+ - Bad Practices and Solutions
  - Booleans
  - Built-in Functions
  - Closure
+ - Comparisons
  - Conditionals
+ - Exceptions
  - Falsey Values
  - Function Expressions
  - Function Expressions as Parameters
@@ -29,7 +32,6 @@ Topics
  - Ternary Conditionals
  - Truthy Values
  - Variables
-
 
 Tools
 ====================
