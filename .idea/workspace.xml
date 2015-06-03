@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="429e6de1-54c8-4bf0-80c1-cd910b2366fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJavascript/Topics/Namespaces.js" afterPath="$PROJECT_DIR$/LearnJavascript/Topics/Namespaces.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnJavascript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,21 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Numbers.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Numbers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43724138">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Namespaces.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Namespaces.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Namespaces.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.41379312">
+              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -98,8 +87,8 @@
         <option value="$PROJECT_DIR$/LearnJavascript/Topics/BadPracticesAndSolutions.js" />
         <option value="$PROJECT_DIR$/LearnJavascript/.gitignore" />
         <option value="$PROJECT_DIR$/LearnJavascript/Topics/Namespacing.js" />
-        <option value="$PROJECT_DIR$/LearnJavascript/Topics/Namespaces.js" />
         <option value="$PROJECT_DIR$/LearnJavascript/Topics/Numbers.js" />
+        <option value="$PROJECT_DIR$/LearnJavascript/Topics/Namespaces.js" />
       </list>
     </option>
   </component>
@@ -725,18 +714,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Namespaces.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Numbers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.62482756">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Numbers.js">
+    <entry file="file://$PROJECT_DIR$/LearnJavascript/Topics/Namespaces.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43724138">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.41379312">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
           <folding />
         </state>
       </provider>

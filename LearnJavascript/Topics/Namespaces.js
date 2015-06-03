@@ -8,8 +8,8 @@ describe('Namespaces', function () {
   it('You can create a namespace by creating a single global Object', function () {
     //By convention, this namespace variable is capitalized
     var NAMESPACE = {
-      namespaceArray : [1,2,3],
-      namespaceVariable : 9
+      namespaceArray: [1, 2, 3],
+      namespaceVariable: 9
     };
     //The methods and properties are encapsulated on the NAMESPACE namespace
     expect(NAMESPACE.namespaceVariable).toBe(9);
@@ -22,11 +22,11 @@ describe('Namespaces', function () {
   it('You can nest namespaces to provide further organization and protection', function () {
     //Nesting namespaces allows clarity of code by keeping variable names intuitive
     var NAMESPACE = {
-      namespaceArray : [1,2,3],
-      namespaceVariable : 9,
-      INTERNAL : {
-        namespaceArray : [4,5,6],
-        namespaceVariable : 10,
+      namespaceArray: [1, 2, 3],
+      namespaceVariable: 9,
+      INTERNAL: {
+        namespaceArray: [4, 5, 6],
+        namespaceVariable: 10,
       }
     };
     expect(NAMESPACE.namespaceVariable).toBe(9);
@@ -42,21 +42,43 @@ describe('Namespaces', function () {
     //You can achieve this by surrounding the entire set of properties and values in an immediately
     //invoked function expression
     //The local values and methods will be "closed" into the armory's namespace
-    var NAMESPACE = (function(){
-      var privateArray  = [1,2,3];
+    var NAMESPACE = (function () {
+      var privateArray = [1, 2, 3];
       var privateVariable = 9;
       //In order to make public properties, you can return an object
       return {
         //Since the function expression is invoked, this returned object will be handled immediately
         // to the NAMESPACE variable and become a namespace
-        publicArray: function(){return [4,5,6];},
+        publicArray: function () {
+          return [4, 5, 6];
+        },
         publicVariable: 10
       };
     })();//This parentheses indicate that the function expression should be immediately executed
     //Since privateArray and privateVariable, we expect them to be undefined
     expect(NAMESPACE.privateArray).toBeUndefined();
     expect(NAMESPACE.privateVariable).toBeUndefined();
-    expect(NAMESPACE.publicArray()).toEqual([ 4, 5, 6 ]);
+    expect(NAMESPACE.publicArray()).toEqual([4, 5, 6]);
     expect(NAMESPACE.publicVariable).toBe(10);
+  });
+
+  it('Closure will allow you to make private variables and properties', function () {
+
+    var CAVESOFCLARITY = (function () {
+      var treasureChests = 3;
+      var SECRET = (function () {
+        return {
+          stalactites: 4235,
+          stalagmites: 3924,
+          bats: 345,
+          openChest: function () {
+            this.treasureChests--;
+            alert("DA DADADA DAAAAAAA!");
+          }
+        };
+      })();
+    })();
+
+
   });
 });
