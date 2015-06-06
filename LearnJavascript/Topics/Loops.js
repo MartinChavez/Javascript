@@ -28,7 +28,7 @@ describe('Loops', function () {
     for (var index = 0;index < numbers.length ;index++) {
       expect(numbers[index]).toBe(index);
     }
-    //You can use cached values to improve the loop performance by reducing memory access
+    //You can use cached values to improve the loop performance by reducing memory access.
     //By creating both variables in the loop parameters,
     //we signal to the compiler that they are only intended for use inside the loop
     for (var index = 0,numbersLength = numbers.length;index < numbersLength ;index++) {

@@ -9,16 +9,16 @@ describe('Booleans', function () {
   /*Operators*/
   /*Common Operators used in Javascript Language*/
   it('Addition', function () {
-    expect(6+4).toBe(10);
+    expect(6+4).toBe(10);// evaluates to true
   });
-  it('Substraction', function () {
-    expect(10-4).toBe(6);
+  it('Subtraction', function () {
+    expect(10-4).toBe(6);//evaluates to true
   });
   it('Division', function () {
-    expect(12/4).toBe(3);
+    expect(12/4).toBe(3);//evaluates to true
   });
   /*Grouping Expressions*/
-  /*PEMDAS: Parentheses, Exponents, Multiplication, Division, Addition, Subtraction. */
+  /*PEMDAS: Parentheses, Exponents, Multiplication, Division, Addition and Subtraction. */
   it('Javascript follows PEMDAS: Order of Operations', function () {
     expect((-5 * 6) - 7 * -2).toBe(-16);
   });

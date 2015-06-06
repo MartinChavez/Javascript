@@ -10,7 +10,7 @@ describe('Function Expressions', function () {
   function addTwoNumbers(numberOne,numberTwo){
       return numberOne+numberTwo;
   }
-  it('Assigning functions to variables allows them to only load when the runtime executes that line', function () {
+  it('Assigning functions to variables allows them to only load them when the runtime executes that line', function () {
     var subtract = function subtractTwoNumbers(numberOne,numberTwo){ //In Js we can assign a function to a variable
       return numberOne-numberTwo;
     };

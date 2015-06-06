@@ -34,6 +34,7 @@ describe('Objects', function () {
       programmingLanguages : programmingLanguages // You are assigning a reference to the array
     };
     person.programmingLanguages.push('Java');
+    expect(person.programmingLanguages[2]).toBe('Java');
     expect(person.programmingLanguages.length).toBe(programmingLanguages.length); //the property and the array have the same length since we pushed the item to the same array
   });
 

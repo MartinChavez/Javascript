@@ -3,6 +3,7 @@
 describe('Object Functionality', function () {
 
   /*Object Functionality*/
+
   it('Properties can be functions', function () {
 
     var person = {
@@ -25,7 +26,7 @@ describe('Object Functionality', function () {
       age : 27
     };
     person.updateAge = function(newAge){
-      //'this' keyword still works and references the person's object
+      //'this' keyword references the person's object
       this.age = newAge;
     }
     person.updateAge(28);

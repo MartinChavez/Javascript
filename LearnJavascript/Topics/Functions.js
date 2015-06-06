@@ -23,14 +23,21 @@ describe('Functions', function () {
   /*Scopes*/
   it('Global and Local Variables', function () {
     /*Global Variables (on this scope)*/
-    var globalNumberOne = 1;//global variables could be accessed from anywhere
+    var globalVariable = 1;//global variables could be accessed from anywhere in the program
 
-    function addToGlobalNumberOne(localNumberOne) {
+    function addUsingGlobalVariable(localNumberOne) {
       //localNumberOne is a Local Variable and could only be accessed from the function's scope
-      return globalNumberOne + localNumberOne; //Local and global variables can interact with each other
+      return globalVariable + localNumberOne; //Local and global variables can interact with each other
     }
 
-    expect(addToGlobalNumberOne(1)).toBe(2);
+    expect(addUsingGlobalVariable(1)).toBe(2);
+
+    //You can modify the global variables inside any method
+    function addToGlobalVariable(localNumberOne) {
+      globalVariable = globalVariable + localNumberOne;
+    }
+    addToGlobalVariable(1);
+    expect(globalVariable).toBe(2);
   });
   it('A functions local variables are not available once the functions scope is closed', function () {
 

@@ -15,8 +15,9 @@ describe('Prototypes', function () {
 
     var string = "String Variable"; //This string variable inherits all the properties from the String Prototype and Object Prototype
 
-    //hasOwnProperty and constructor are both properties of Object, not String, but we can still use the method, this is achieved due to the prototype chain
-    expect(string.hasOwnProperty(constructor)).toBe(false);
+    //hasOwnProperty and constructor are both properties of Object, not String, but we can still use hasOwnProperty, this is achieved due to the prototype chain
+    expect(string.hasOwnProperty('constructor')).toBe(false);
+    expect(Object.constructor.prototype.hasOwnProperty('constructor')).toBe(true);
     //'charAt' is a property of the String Prototype, therefore the prototype chain stops there and does not 'query' the Object prototype for such property
     expect(string.charAt(1)).toBe('t');
 
@@ -24,7 +25,7 @@ describe('Prototypes', function () {
 
   /*You can add base functionality to all objects of the same type*/
   it('Adding a new function into the Strings Prototype', function () {
-    //.prototype finds the prototype for all Strings values everywhere
+    //.prototype finds the prototype for all Strings values
     String.prototype.lengthPlusOne = function (){ // By adding a function to the String Prototype,it makes it inheritable by all the Strings
       return this.length+1;
     };
@@ -38,7 +39,7 @@ describe('Prototypes', function () {
     var person = { firstName: "Martin" , age: 27};
 
     var newPerson = Object.create(person); //The first argument of the Object.create method will be used as the prototype of the newly created Object
-    //The newPerson Object inherited all of the properties from person, same way as a prototype
+    //The newPerson Object inherited all of the properties from person
     expect(newPerson.firstName).toBe("Martin");
     expect(newPerson.age).toBe(27);
 
@@ -58,7 +59,8 @@ describe('Prototypes', function () {
     var newPerson = Object.create(person);
 
     expect(Object.prototype.isPrototypeOf(newPerson)).toBe(true);
-    expect(person.isPrototypeOf(newPerson)).toBe(true); //The isPrototypeOf method will look upward through the entire hierarchy (prototype chain)
+    expect(person.isPrototypeOf(newPerson)).toBe(true);
+    //The isPrototypeOf method will look upward through the entire hierarchy (prototype chain)
     //to see whether the Object.prototype Object is a prototypical ancestor of newPerson
     expect(newPerson.isPrototypeOf(person)).toBe(false);
   });
@@ -85,7 +87,7 @@ describe('Prototypes', function () {
       this.age = age;
     }
 
-    //'new' keyword produces a new Object of the class
+    //'new' keyword produces a new Object of the specified class
     var martinPerson = new Person("Martin", "Chavez", 27);
 
     expect(martinPerson.firstName).toBe("Martin");
@@ -99,7 +101,7 @@ describe('Prototypes', function () {
       this.lastName = lastName;
       this.age = age;
     }
-    //Setting a constructor prototype property allows then instances to access these properties
+    //Setting a constructor prototype property allows the instances to access these properties
     Person.prototype = {
       address: "House 123"
     };
@@ -123,7 +125,8 @@ describe('Prototypes', function () {
   });
 
   /*Performance Optimizations*/
-  it('You can improve the memory efficiency of the program by adding common functionality on objects prototype', function () {
+
+  it('You can improve the memory efficiency of the program by adding common functionality on the objects prototype', function () {
     function Person (firstName, lastName){
       this.firstName = firstName;
       this.lastName = lastName;
@@ -136,8 +139,8 @@ describe('Prototypes', function () {
     var martinPerson = new Person("Martin", "Chavez");
     var corriePerson = new Person("Corrie", "McQueen");
 
-    expect(martinPerson.longArray[0]).toBe(0);
-    expect(corriePerson.longArray[1]).toBe(1);
+    expect(martinPerson.longArray[8]).toBe(8);
+    expect(corriePerson.longArray[8]).toBe(8);
   });
 
 });

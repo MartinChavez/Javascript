@@ -3,7 +3,7 @@
 describe('Conditionals', function () {
 
   /*Conditionals*/
-  /*Allow us to execute certain code based on specific conditions*/
+  /*Expressions that allow to execute code paths based on specific conditions*/
   it('If then Else', function () {
     var shouldBeTrue;
     //If the conditional evaluates to true, the code block is executed

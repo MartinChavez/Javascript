@@ -3,7 +3,7 @@
 describe('Hoisting', function () {
 
   /*Hoisting*/
-  /* Program load order*/
+  /*JavaScript's default behavior of moving declarations to the top.*/
   it('Javascript loads functions and variables that need space in memory first', function () {
 
     function Universe() {

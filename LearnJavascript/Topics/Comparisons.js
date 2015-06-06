@@ -41,5 +41,6 @@ describe('Comparisons', function () {
 
     expect(customObjectTwo instanceof CustomObjectTwo).toBe(true);
     expect(customObjectTwo instanceof CustomObject).toBe(true);
+    expect(customObjectTwo instanceof Object).toBe(true);
   });
 });

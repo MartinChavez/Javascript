@@ -3,7 +3,7 @@
 describe('Namespaces', function () {
 
   /*Namespaces*/
-  //The namespace concept can limit global impact and provide data protection (not native to Javascript)
+  //The namespace concept can limit global impact and provide data protection (it is not native to Javascript)
 
   it('You can create a namespace by creating a single global Object', function () {
     //By convention, this namespace variable is capitalized
@@ -41,7 +41,7 @@ describe('Namespaces', function () {
   it('Closure will allow you to make private variables and properties', function () {
     //You can achieve this by surrounding the entire set of properties and values in an immediately
     //invoked function expression
-    //The local values and methods will be "closed" into the armory's namespace
+    //The local values and methods will be "closed" into the namespace
     var NAMESPACE = (function () {
       var privateArray = [1, 2, 3];
       var privateVariable = 9;
@@ -55,7 +55,7 @@ describe('Namespaces', function () {
         publicVariable: 10 + privateVariable
       };
     })();//This parentheses indicate that the function expression should be immediately executed
-    //Since privateArray and privateVariable, we expect them to be undefined
+    //Since privateArray and privateVariable are private, we expect them to be undefined
     expect(NAMESPACE.privateArray).toBeUndefined();
     expect(NAMESPACE.privateVariable).toBeUndefined();
     expect(NAMESPACE.publicArray()).toEqual([4, 5, 6]);
@@ -75,7 +75,7 @@ describe('Namespaces', function () {
 
   it('You can use imports for retrieving global variables', function () {
     var globalVariable = 7;
-    //An imported global variable becomes another pieces of data, boxed up in the module's closure
+    //An imported global variable becomes another piece of data, boxed up in the module's closure
     var NAMESPACE = (function (globalVariable) {
       //The function's parameter creates a modifiable value for use in the module
       //The global values stays protected

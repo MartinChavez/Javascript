@@ -35,7 +35,7 @@ describe('Numbers', function () {
     //parseInt will accept any radix value from 2-36 for selecting the Base for the result
     expect(parseInt("021", 10)).toBe(21);
   });
-2
+
   /*NaN*/
   it('You should not be checking for a number not being NaN (by itself) before numeric operations', function () {
     //The JS interpreter returns "number" for this operation

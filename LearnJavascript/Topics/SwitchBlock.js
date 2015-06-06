@@ -4,7 +4,7 @@ describe('Switch Block', function () {
 
   /*Switch Block*/
   /*A conditional for multiple possibilities*/
-  it('Switch keyword allows to invoke an expression based on a specified value', function () {
+  it('Switch keyword allows to invoke an expression based on a value', function () {
     var country = "Italy";
     var capital;
 

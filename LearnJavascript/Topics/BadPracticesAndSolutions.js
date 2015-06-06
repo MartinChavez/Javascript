@@ -5,7 +5,7 @@ describe('Bad Practices and Solutions', function () {
 
   /*with*/
 
-  it('The with keyword takes the entire encapsulated environment of the parameter object and use it to build a new local scope', function () {
+  it('The with keyword takes the entire encapsulated environment of the parameter object and uses it to build a new local scope', function () {
     var outsideObject = {
       insideObject: {
         functionInside: function () {
@@ -36,7 +36,7 @@ describe('Bad Practices and Solutions', function () {
   /* eval*/
 
   it('eval takes a string as a parameter, start the js compiler, and treat that string as a line of executable code', function () {
-    //Using eval affects legibility. debugging and performance of the application
+    //Using eval affects legibility, debugging and performance of the application
     var result;
     eval("result = 5;");
     expect(result).toBe(5);

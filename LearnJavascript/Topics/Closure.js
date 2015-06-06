@@ -11,11 +11,11 @@ describe('Closure', function () {
       function insideClosure() {
         return closureVariable;//The context of this function is saved in the outsideClosure
       }
-      return closureVariable;
+      return insideClosure;
     }
 
     var insideClosure = outsideClosure();
-    expect(insideClosure).toBe("Closure Variable");
+    expect(insideClosure()).toBe("Closure Variable");
   });
   it('Closure functions can modify bound variables in the background', function () {
     function outsideClosure() {
@@ -39,7 +39,9 @@ describe('Closure', function () {
       var key = 3;
       var insideFunction;
       for (var currentNumber = 0; currentNumber < 6; currentNumber++) {
-        if (currentNumber === key) {//Although we match the key 3, the loop continues and the function will always return the last value
+        if (currentNumber === key) {
+          //Although we match the key 3, the loop continues and the function will always
+          //set the value to the last iteration of the loop
           insideFunction = function insideClosure() {
             return currentNumber;
           }

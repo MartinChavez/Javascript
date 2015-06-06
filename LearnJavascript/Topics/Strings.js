@@ -4,11 +4,11 @@ describe('Strings', function () {
 
   /*Strings*/
   /*In javascript we need to use "Quotes" in order to process and manipulate strings*/
-  it('Creating a  String', function () {
-    expect("String").toEqual(jasmine.any(String));
+  it('You can create a String by surrounding text with quotes', function () {
+    expect(typeof "String").toEqual("string");
   });
-  it('Javascript Strings supports concatenation', function () {
-    expect("StringFirst" + "StringSecond").toEqual("StringFirstStringSecond");
+  it('Javascript Strings support concatenation', function () {
+    expect("First" + "Second").toEqual("FirstSecond");
   });
   it('Concatenation works with numbers', function () {
     expect("StringFirst" + 1).toEqual("StringFirst1");
@@ -31,21 +31,21 @@ describe('Strings', function () {
 
   /*Performance*/
 
-  it('Use standard concatenation for small string concatenation', function () {
+  it('Use standard concatenation for small string concatenations', function () {
     //Standard concatenation operator has been optimized in most modern browser versions
-    var stringOne = "StringOne";
-    var stringTwo = "StringTwo";
-    var stringThree = "StringThree";
+    var stringOne = "One";
+    var stringTwo = "Two";
+    var stringThree = "Three";
 
     var finalString = "";
     finalString += stringOne;
     finalString += stringTwo;
     finalString += stringThree;
 
-    expect(finalString).toBe("StringOneStringTwoStringThree");
+    expect(finalString).toBe("OneTwoThree");
   });
 
-  it('When strings are present in an array, use the join() method', function () {
+  it('When strings are present in an array, use the join() method to concatenate', function () {
     //The join() method is inherited from the Array Prototype
     var stringArrays = ["StringOne","StringTwo","StringThree"];
     //Apart for performing better than string concatenation, the code becomes more readable

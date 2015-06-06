@@ -33,8 +33,9 @@ describe('General Performance Concepts', function () {
     for(var index = 0; index < contentOfLiElements.length; index++){
       var liElement = document.createElement("li");
       liElement.appendChild(document.createTextNode(contentOfLiElements[index]));
-      fragment.appendChild(liElement);
+      fragment.appendChild(liElement); //There is no document reflow at this point
     }
+    //There is only one document reflow on this program
     ulDomElement.appendChild(fragment);
   });
 
@@ -66,7 +67,7 @@ describe('General Performance Concepts', function () {
   it('you can use Date Objects to accurately measure performance', function () {
     //Date object immediately captures the current date and time
     var dateObject = new Date();
-    expect(typeof(dateObject)).toEqual('object');
+    expect(typeof(dateObject)).toEqual('object');//Date types are JS Objects
     //By placing a '+' unary operator in front of the Date Object, we can retrieve the value in milliseconds
     expect(typeof(+dateObject)).toEqual('number');
 

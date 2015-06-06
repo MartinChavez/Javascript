@@ -29,7 +29,7 @@ describe('Ternary Conditionals', function () {
     expect(assignedVariable).toBe(true);
   });
 
-  it('A Ternary operator can one or more functions', function () {
+  it('A Ternary operator can execute one or more functions', function () {
     var assignedVariable = false;
     (true) ? function (){ assignedVariable = true;}() : function (){ assignedVariable = false;}();
     expect(assignedVariable).toBe(true);

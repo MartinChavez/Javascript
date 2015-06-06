@@ -7,7 +7,7 @@ describe('Logical Assignment', function () {
   it('You can make assignments with ternary conditions', function () {
     var object = {
       addValueToArray : function(value){
-        //We can verify that this.objectArray previously exists (it is looking for a truthy), if that is the case, return the same value
+        //We can verify that this.objectArray previously exists (it is looking for a truthy value), if that is the case, return the same value
         //Otherwise, return a new array
         this.objectArray = this.objectArray ? this.objectArray : [];
         this.objectArray.push(value);
@@ -30,20 +30,20 @@ describe('Logical Assignment', function () {
     expect(object.objectArray[0]).toBe(5);
   });
   it('Logical Operators results for ||', function () {
-    //The || assignment returns the first thruthy value
+    //The || assignment returns the first truthy value
     expect(4||5).toBe(4);
-    //If some values are truthy and others are falsey, the || assignment returns the first thruthy value
+    //If some values are truthy and others are falsy, the || assignment returns the first truthy value
     expect(4||0).toBe(4);
     expect(0||4).toBe(4);
-    //If all  values  are falsey, the || assignment returns the last element
+    //If all  values  are falsy, the || assignment returns the last element
     expect(0||""||undefined).toBeUndefined();
   });
 
   it('Logical Operators results for &&', function () {
-    //The && assignment returns the right-most thruthy value
+    //The && assignment returns the right-most truthy value
     expect(4&&5).toBe(5);
     expect(5&&4).toBe(4);
-    //The && assignment returns the first falsey value
+    //The && assignment returns the first falsy value
     expect(4&&5&&0).toBe(0);
     expect(5&&4&&undefined).toBeUndefined();
     expect(""&&null&&0).toBe("");

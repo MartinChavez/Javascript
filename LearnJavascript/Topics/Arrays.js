@@ -14,7 +14,7 @@ describe('Arrays', function () {
     arrayOfStrings[0] = "StringZero"; //You can change the value contained at any index
     expect(arrayOfStrings[0]).toBe("StringZero");
   });
-  it('You can access the length of Arrays', function () {
+  it('You can access the length of Arrays with the .length property', function () {
     var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
     expect(arrayOfStrings.length).toBe(3);
   });
@@ -35,7 +35,7 @@ describe('Arrays', function () {
     expect(arrayOfStrings.length).toBe(3);//The array length automatically adjusts
   });
 
-  it('splice() function removes elements anywhere in an array', function () {
+  it('splice() function removes elements from anywhere in the array', function () {
     var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
     //The first argument is the index where you want to start
     //The second argument is the number of elements you want to remove
@@ -47,7 +47,9 @@ describe('Arrays', function () {
   it('Arrays can hold different types of variables ', function () {
     var StringTwoVariable = "StringTwo";
     var arrayOfStrings = [ "StringZero" , 1 , StringTwoVariable];
-    expect(arrayOfStrings[2]).toBe("StringTwo");//When assigning variables to an entry of an array, the variable name is not used, instead the array uses Value of it
+    //When assigning variables to an entry of an array, the variable name is not used,
+    //Instead, the internal value is retrieved
+    expect(arrayOfStrings[2]).toBe("StringTwo");
   });
   it('Arrays can hold Arrays ', function () {
     var firstArrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
@@ -59,14 +61,14 @@ describe('Arrays', function () {
   it('Arrays can hold undefined values ', function () {
     var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
     arrayOfStrings[1] = undefined; //to make a cell empty. we can use the keyword 'undefined', which means 'NO CONTENTS'
-    expect(typeof arrayOfStrings[1]).toBe("undefined");
-    expect(arrayOfStrings[1]).toBe(undefined);
+    expect(arrayOfStrings[1]).toBeUndefined();
     expect(arrayOfStrings.length).toBe(3);//The array length does not change when some of the values are undefined
   });
   it('Arrays can be created with no values ', function () {
     var arrayOfStrings = [];
     expect(typeof arrayOfStrings).toBe("object");
-    expect(arrayOfStrings[1]).toBe(undefined); //When you access an index of the array with no value, the array returns 'undefined'
+    //When you access an index of the array, but you haven't assigned a value, the array returns 'undefined'
+    expect(arrayOfStrings[1]).toBeUndefined();
     expect(arrayOfStrings.length).toBe(0);
   });
 });

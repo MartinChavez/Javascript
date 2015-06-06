@@ -6,8 +6,7 @@ describe('Exceptions', function () {
 
   it('Run-timer errors happen after JS is interpreted', function () {
     //A syntax error will not make it past the interpreter. It will be marked as invalid Javascript
-    //It will be reported in the JS console
-    /*var brokenVar = ;*/
+    //It will be reported on the JS console
     expect( function(){ return brokenVar; } ).toThrow();
   });
   it('A try block is a statement that allows the run-time to continue even when there are exceptions', function () {
@@ -46,7 +45,7 @@ describe('Exceptions', function () {
     }catch(error){
       expect(error instanceof ReferenceError).toBe(true);
       reachedCatch = true;
-      //You can now add a more specific message to console about the reason if threw
+      //You can now add a more specific message to console about the reason the runtime threw
     }
     expect(reachedCatch).toBe(true);
   });

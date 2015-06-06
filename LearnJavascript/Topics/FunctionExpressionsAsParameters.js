@@ -10,7 +10,7 @@ describe('Function Expressions as Parameters', function () {
       function (arrayCell) {
         return arrayCell * 2;
       }
-    );
+    );// results = [2, 4, 6, 8, 10];
     for (var currentNumberIndex = 0; currentNumberIndex < numbers.length; currentNumberIndex++) {
       expect(results[currentNumberIndex]).toBe(numbers[currentNumberIndex] * 2); //The map function allows us to perform a condensed loop in one statement
     }

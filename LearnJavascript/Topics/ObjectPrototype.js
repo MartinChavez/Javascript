@@ -16,13 +16,11 @@ describe('Object Prototype', function () {
 
   });
 
-  it('you can use valueOf to retrieve the type of a Prototype', function () {
+  it('you can use valueOf to retrieve the type of an object', function () {
     function Person (firstName ){
       this.firstName = firstName;
     }
-    Person.prototype = {
-      address: "House 123"
-    };
+    Person.prototype = {};
     var person = new Person("Martin");
     expect(person.valueOf()).toEqual(Object({ firstName: 'Martin' }));
   });
@@ -37,7 +35,7 @@ describe('Object Prototype', function () {
     var person = new Person("Martin");
     expect(person.valueOf()).toBe("Martin");
     person.firstName = "Corrie";
-    //the value of ValueOf is retrieved every time, even if the object changes
+    //the value of ValueOf is retrieved every time, even if the object's property changes
     expect(person.valueOf()).toBe("Corrie");
 
   });
