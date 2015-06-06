@@ -21,8 +21,10 @@ Topics
  - Functions
  - General Performance
  - Hoisting
- - Locial Assignment
+ - Logical Assignment
  - Loops
+ - Namespaces
+ - Numbers
  - Object Prototype
  - Objects
  - Objects Functionality
