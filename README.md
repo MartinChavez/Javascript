@@ -86,7 +86,7 @@ Example: Arrays
     var arrayOfStrings = [ "StringZero" , 1 , StringTwoVariable];
     //When assigning variables to an entry of an array, the variable name is not
     //used, instead the array uses Value of it
-    expect(arrayOfStrings[2]).toBe("StringTwo"); used, instead the array uses Value of it
+    expect(arrayOfStrings[2]).toBe("StringTwo");
   });
   it('Arrays can hold Arrays ', function () {
     var firstArrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
