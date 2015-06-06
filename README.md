@@ -44,7 +44,9 @@ Tools
 <a name="README">[<img src="https://camo.githubusercontent.com/aad5f0385a2d8524cb366a1bad62bc74e797743a/687474703a2f2f692e696d6775722e636f6d2f516d47485067632e706e67" width="50px" height="50px" />](http://bower.io/)</a>
 <a name="README">[<img src="https://www.npmjs.com/static/images/npm-logo.svg" width="50px" height="50px" />](https://www.npmjs.com/)</a>
 
-Example: Arrays
+Examples:
+
+Arrays
 ====================
 ```Javascript
   /*Arrays*/
@@ -60,60 +62,6 @@ Example: Arrays
     var arrayOfStrings = [ "StringOne" , "StringOne" , "StringTwo"];
     arrayOfStrings[0] = "StringZero"; //You can change the value contained at any index
     expect(arrayOfStrings[0]).toBe("StringZero");
-  });
-  it('You can access the length of Arrays', function () {
-    var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
-    expect(arrayOfStrings.length).toBe(3);
-  });
-  it('Pop() function removes a cell from the back of the array', function () {
-    var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
-    //Pop() function deletes the last position and retrieves its value
-    expect(arrayOfStrings.pop()).toBe("StringTwo");
-    expect(arrayOfStrings.length).toBe(2);//The array length automatically adjusts
-  });
-  it('shift() function removes a cell from the beginning of the array', function () {
-    var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
-    //shift() function deletes the first position and retrieves its value
-    expect(arrayOfStrings.shift()).toBe("StringZero");
-    expect(arrayOfStrings.length).toBe(2);//The array length automatically adjusts
-  });
-  it('Push() function adds a cell and its contents to the back of the array', function () {
-    var arrayOfStrings = [ "StringZero" , "StringOne" ];
-    arrayOfStrings.push('StringTwo');
-    //Push() will add a cell onto the back of the arrays
-    expect(arrayOfStrings[2]).toBe("StringTwo");
-    expect(arrayOfStrings.length).toBe(3);//The array length automatically adjusts
-  });
-  it('Arrays can hold different types of variables ', function () {
-    var StringTwoVariable = "StringTwo";
-    var arrayOfStrings = [ "StringZero" , 1 , StringTwoVariable];
-    //When assigning variables to an entry of an array, the variable name is not
-    //used, instead the array uses the internal value
-    expect(arrayOfStrings[2]).toBe("StringTwo");
-  });
-  it('Arrays can hold Arrays ', function () {
-    var firstArrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
-    var secondArrayOfStrings = [ "StringThree" , "StringFour" , "StringFive"];
-    var firstAndSecondArrays = [firstArrayOfStrings , secondArrayOfStrings];
-    expect(typeof firstAndSecondArrays).toBe("object");//Arrays are treated as objects
-    //You can access any index of the composed array
-    expect(firstAndSecondArrays[1][0]).toBe("StringThree");
-  });
-  it('Arrays can hold undefined values ', function () {
-    var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
-    //to make a cell empty. we can use the keyword 'undefined', which means 'NO CONTENTS'
-    arrayOfStrings[1] = undefined; 
-    expect(typeof arrayOfStrings[1]).toBe("undefined");
-    expect(arrayOfStrings[1]).toBe(undefined);
-    //The array length does not change when some of the values are undefined
-    expect(arrayOfStrings.length).toBe(3);
-  });
-  it('Arrays can be created with no values', function () {
-    var arrayOfStrings = [];
-    expect(typeof arrayOfStrings).toBe("object");
-    //When you access an index of the array with no value, the array returns 'undefined'
-    expect(arrayOfStrings[1]).toBe(undefined); 
-    expect(arrayOfStrings.length).toBe(0);
   });
 ```
 Install
