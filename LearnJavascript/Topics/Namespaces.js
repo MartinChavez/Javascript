@@ -52,33 +52,38 @@ describe('Namespaces', function () {
         publicArray: function () {
           return [4, 5, 6];
         },
-        publicVariable: 10
+        publicVariable: 10 + privateVariable
       };
     })();//This parentheses indicate that the function expression should be immediately executed
     //Since privateArray and privateVariable, we expect them to be undefined
     expect(NAMESPACE.privateArray).toBeUndefined();
     expect(NAMESPACE.privateVariable).toBeUndefined();
     expect(NAMESPACE.publicArray()).toEqual([4, 5, 6]);
-    expect(NAMESPACE.publicVariable).toBe(10);
+    expect(NAMESPACE.publicVariable).toBe(19);
   });
 
-  it('Closure will allow you to make private variables and properties', function () {
-
-    var CAVESOFCLARITY = (function () {
-      var treasureChests = 3;
-      var SECRET = (function () {
-        return {
-          stalactites: 4235,
-          stalagmites: 3924,
-          bats: 345,
-          openChest: function () {
-            this.treasureChests--;
-            alert("DA DADADA DAAAAAAA!");
-          }
-        };
-      })();
+  it('When non-local variables are references in a module, the entire length of the scope chain is checked', function () {
+    var globalVariable = 7;
+    var NAMESPACE = (function () {
+      return {
+        //It is very expensive to search for the variables inside nested namespaces
+        globalVariable: globalVariable
+      };
     })();
-
-
+    expect(NAMESPACE.globalVariable).toBe(7);
   });
+
+  it('You can use imports for retrieving global variables', function () {
+    var globalVariable = 7;
+    //An imported global variable becomes another pieces of data, boxed up in the module's closure
+    var NAMESPACE = (function (globalVariable) {
+      //The function's parameter creates a modifiable value for use in the module
+      //The global values stays protected
+      return {
+        globalVariable: globalVariable
+      };
+    })(globalVariable);
+    expect(NAMESPACE.globalVariable).toBe(7);
+  });
+
 });
