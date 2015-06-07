@@ -83,8 +83,36 @@ function addNumbers(numberOne, numberTwo) { //The function's name follows the 'f
 } //The statements that will be executed should be enclosed in curly braces.
 
 ```
-
-
+Anonymous Closures
+====================
+```Javascript
+//When you create NAMESPACES, the program may still execute its private methods and variables
+//It is good practice to use private methods to safely modify private data
+//Anonymous Closures allow you to define public and private variables
+it('Closure will allow you to make private variables and properties', function () {
+  //You can achieve this by surrounding the entire set of properties and values in an immediately
+  //invoked function expression
+  //The local values and methods will be "closed" into the namespace
+  var NAMESPACE = (function () {
+    var privateArray = [1, 2, 3];
+    var privateVariable = 9;
+    //In order to make public properties, you can return an object
+    return {
+      //Since the function expression is invoked, this returned object will be handled immediately
+      // to the NAMESPACE variable and become a namespace
+      publicArray: function () {
+        return [4, 5, 6];
+      },
+      publicVariable: 10 + privateVariable
+    };
+  })();//These parentheses indicate that the function expression should be immediately executed
+  //Since privateArray and privateVariable are private, we expect them to be undefined
+  expect(NAMESPACE.privateArray).toBeUndefined();
+  expect(NAMESPACE.privateVariable).toBeUndefined();
+  expect(NAMESPACE.publicArray()).toEqual([4, 5, 6]);
+  expect(NAMESPACE.publicVariable).toBe(19);
+});
+```
 Install
 ====================
 ```Terminal
