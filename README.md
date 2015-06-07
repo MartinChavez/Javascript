@@ -49,7 +49,7 @@ Arrays
 ```Javascript
   /* An array is a data structure with automatically indexed positions*/
   it('Arrays can be accessed by indices', function () {
-    //The brackets indicate to the compiler to make an array and fill it with
+    //The brackets indicate to the compiler to make an array and to fill it with
     //the comma-separated values between the brackets
     var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
     //We can access any location of the zero-based array
