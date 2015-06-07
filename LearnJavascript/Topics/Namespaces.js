@@ -54,7 +54,7 @@ describe('Namespaces', function () {
         },
         publicVariable: 10 + privateVariable
       };
-    })();//This parentheses indicate that the function expression should be immediately executed
+    })();//These parentheses indicate that the function expression should be immediately executed
     //Since privateArray and privateVariable are private, we expect them to be undefined
     expect(NAMESPACE.privateArray).toBeUndefined();
     expect(NAMESPACE.privateVariable).toBeUndefined();
