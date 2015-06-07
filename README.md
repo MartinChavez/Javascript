@@ -47,7 +47,6 @@ Tools
 Arrays
 ====================
 ```Javascript
-  /*Arrays*/
   /* An array is a data structure with automatically indexed positions*/
   it('Arrays can be accessed by indices', function () {
     //The brackets indicate to the compiler to make an array and fill it with
@@ -83,6 +82,43 @@ function addNumbers(numberOne, numberTwo) { //The function's name follows the 'f
 } //The statements that will be executed should be enclosed in curly braces.
 
 ```
+Numbers
+====================
+```Javascript
+it('JavaScript uses binary floating point values to handle all of its decimal based operations', function () {
+  expect(0.1 + 0.2).toBe(0.30000000000000004);
+});
+it('You can use the toFixed() method to select the amount of decimal places to display', function () {
+  expect((0.1 + 0.2).toFixed(1)).toBe('0.3');
+});
+it('toFixed() method will round to the last indicated position', function () {
+  //0.18 + 0.28 = 0.46
+  expect((0.18 + 0.28).toFixed(1)).toBe('0.5');
+});
+it('parseFloat() turns strings with decimals into numbers', function () {
+  expect(parseFloat((0.18 + 0.28).toFixed(1))).toBe(0.5);
+});
+it('parseInt() looks for the first available integer at the front of a string', function () {
+  expect(parseInt("55")).toBe(55);
+  expect(parseInt("55 is a great number")).toBe(55);
+});
+it('if parseInt() does not find an acceptable value at the beginning of a string, it will return a NaN', function () {
+  expect(parseInt("A great number, 55")).toBeNaN();
+});
+it('parseInt() will trim off any decimals that may exist, without rounding', function () {
+  expect(parseInt("5.78")).toBe(5);
+});
+it('parseInt() will accept octal,hexadecimal and decimal values potentially creating undesired results', function () {
+  //"021" is read as an octal value(base 8) and converts it to decimal
+  expect(parseInt("021")).toBe(17);//This is fixed on ECMAScript5
+});
+it('you can use a radix value to ensure correct parsing', function () {
+  //parseInt will accept any radix value from 2-36 for selecting the Base for the result
+  expect(parseInt("021", 10)).toBe(21);
+});
+```
+
+
 Anonymous Closures
 ====================
 ```Javascript
