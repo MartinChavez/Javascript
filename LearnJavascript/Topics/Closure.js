@@ -17,7 +17,7 @@ describe('Closure', function () {
     var insideClosure = outsideClosure();
     expect(insideClosure()).toBe("Closure Variable");
   });
-  it('Closure functions can modify bound variables in the background', function () {
+  it('Closures functions can modify bound variables in the background', function () {
     function outsideClosure() {
       var numberOfTimes = 0;
       function insideClosure() {

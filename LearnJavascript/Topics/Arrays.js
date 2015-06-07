@@ -5,7 +5,7 @@ describe('Arrays', function () {
   /*Arrays*/
   /* An array is a data structure with automatically indexed positions*/
   it('Arrays can be accessed by indices', function () {
-    //The brackets indicate to the compiler to make an array and fill it with the comma-separated values between the brackets
+    //The brackets indicate to the compiler to make an array and to fill it with the comma-separated values between the brackets
     var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
     expect(arrayOfStrings[1]).toBe("StringOne");//We can access any location of the zero-based array
   });

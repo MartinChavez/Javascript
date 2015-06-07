@@ -3,7 +3,7 @@
 describe('Functions', function () {
 
   /*Functions*/
-  /*Functions take some input, executes a series of statements using the input and outputs some result*/
+  /*Functions take some input, then execute a series of statements using the input, and outputs a result*/
   it('functions help write reusable code', function () {
     expect(addNumbers(1, 2)).toBe(3);
     expect(addNumbers(2, 3)).toBe(5);
