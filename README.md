@@ -125,7 +125,7 @@ Anonymous Closures
 //When you create NAMESPACES, the program may still execute its private methods and variables
 //It is good practice to use private methods to safely modify private data
 //Anonymous Closures allow you to define public and private variables
-it('Closure will allow you to make private variables and properties', function () {
+it('Closures will allow you to make private variables and properties', function () {
   //You can achieve this by surrounding the entire set of properties and values in an immediately
   //invoked function expression
   //The local values and methods will be "closed" into the namespace
