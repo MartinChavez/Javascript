@@ -170,7 +170,7 @@ If you have any questions, please feel free to ask me:
 
 Contributors
 ====================
-* [Martin Chavez Aguilar](https://www.linkedin.com/in/martinchavezaguilar) - Wrote the project
+* [Martin Chavez Aguilar](http://martinchavezaguilar.com/) - Wrote the project
 
 References
 ====================
