@@ -174,4 +174,6 @@ Contributors
 
 Continue Learning
 ====================
-<a name="angular">[<img src="http://blog.thoughtram.io/images/angular2-logo.svg" width="50px" height="50px" />](https://github.com/MartinChavez/AngularJS-Advanced-Topics)</a>
+<a>[<img src="http://www.playmagazine.info/wp-content/uploads/2015/01/06-angular-js-open-source-tutorial-1864x1129.jpg" width="50px" height="50px" />](https://github.com/MartinChavez/AngularJs-Basics)</a>
+<a>[<img src="https://pbs.twimg.com/profile_images/2149314222/square.png" width="50px" height="50px" />](https://github.com/MartinChavez/AngularJS-Advanced-Topics)</a>
+<a>[<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/c%23.jpg" width="50px" height="50px" />](https://github.com/MartinChavez/CSharp)</a>
