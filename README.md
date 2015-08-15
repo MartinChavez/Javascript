@@ -172,6 +172,6 @@ Contributors
 ====================
 * [Martin Chavez Aguilar](http://martinchavezaguilar.com/) - Wrote the project
 
-References
+Continue Learning
 ====================
-* [Code School](https://www.codeschool.com/)
+<a name="angular">[<img src="http://blog.thoughtram.io/images/angular2-logo.svg" width="50px" height="50px" />](https://github.com/MartinChavez/AngularJS-Advanced-Topics)</a>
