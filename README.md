@@ -174,7 +174,7 @@ Contributors
 
 Continue Learning
 ====================
-<a>[<img src="http://www.playmagazine.info/wp-content/uploads/2015/01/06-angular-js-open-source-tutorial-1864x1129.jpg" width="50px" height="50px" />](https://github.com/MartinChavez/AngularJs-Basics)</a>
-<a>[<img src="https://pbs.twimg.com/profile_images/2149314222/square.png" width="50px" height="50px" />](https://github.com/MartinChavez/AngularJS-Advanced-Topics)</a>
-<a>[<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/c%23.jpg" width="50px" height="50px" />](https://github.com/MartinChavez/CSharp)</a>
-<a>[<img src="http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif" width="50px" height="50px" />](https://github.com/MartinChavez/jQueryBasics)</a>
+<a name="README">[<img src="https://pbs.twimg.com/profile_images/2149314222/square.png" width="50px" height="50px" />](https://github.com/MartinChavez/AngularJs-Basics)</a>
+<a name="README">[<img src="http://spin42.com/assets/languages/angularjs_gray-4b0d229ceae4c13fc31e4657359f4dcc.png" width="50px" height="50px" />](https://github.com/MartinChavez/AngularJS-Advanced-Topics)</a>
+<a name="README">[<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/c%23.jpg" width="50px" height="50px" />](https://github.com/MartinChavez/CSharp)</a>
+<a name="README">[<img src="http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif" width="50px" height="50px" />](https://github.com/MartinChavez/jQueryBasics)</a>
