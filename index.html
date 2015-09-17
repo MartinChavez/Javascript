@@ -31,14 +31,15 @@
         <hr>
 
         <section id="main_content">
-          <p><img src="https://camo.githubusercontent.com/eb464a60a4a47f8b600aa71bfbc6aff3fe5c5392/68747470733a2f2f7261772e6769746875622e636f6d2f766f6f646f6f74696b69676f642f6c6f676f2e6a732f6d61737465722f6a732e706e67" alt="Javascript"></p>
+          <p><a name="README"></a><a href="https://github.com/MartinChavez/Learn-Javascript"><img src="https://camo.githubusercontent.com/eb464a60a4a47f8b600aa71bfbc6aff3fe5c5392/68747470733a2f2f7261772e6769746875622e636f6d2f766f6f646f6f74696b69676f642f6c6f676f2e6a732f6d61737465722f6a732e706e67" width="200px" height="200px"></a></p>
 
 <h1>
 <a id="javascript--test-driven-learning" class="anchor" href="#javascript--test-driven-learning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Javascript : Test-Driven Learning</h1>
 
 <p>A project aimed to help the user master Javascript with a test-driven approach. Each unit contains an annotated tutorial on the code and the ability to run Unit Tests to verify the expected behavior.</p>
 
-<p>Topics:</p>
+<h1>
+<a id="topics" class="anchor" href="#topics" aria-hidden="true"><span class="octicon octicon-link"></span></a>Topics</h1>
 
 <ul>
 <li>Arrays</li>
@@ -69,6 +70,157 @@
 <li>Truthy Values</li>
 <li>Variables</li>
 </ul>
+
+<h1>
+<a id="tools" class="anchor" href="#tools" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tools</h1>
+
+<p><a name="README"></a><a href="https://nodejs.org/"><img src="http://www.jetbus.io/images/logo-node.png" width="50px" height="50px"></a>
+<a name="README"></a><a href="https://github.com/gruntjs/grunt"><img src="https://camo.githubusercontent.com/39242419c60a53e1f3cecdeecb2460acce47366f/687474703a2f2f6772756e746a732e636f6d2f696d672f6772756e742d6c6f676f2d6e6f2d776f72646d61726b2e737667" width="50px" height="50px"></a>
+<a name="README"></a><a href="https://karma-runner.github.io/0.12/index.html"><img src="https://cldup.com/0286W-2y27.png" width="50px" height="50px"></a>
+<a name="README"></a><a href="https://github.com/jasmine/jasmine"><img src="http://eclipsesource.com/blogs/wp-content/uploads/2014/03/jasmine.png" width="50px" height="50px"></a>
+<a name="README"></a><a href="http://bower.io/"><img src="https://camo.githubusercontent.com/aad5f0385a2d8524cb366a1bad62bc74e797743a/687474703a2f2f692e696d6775722e636f6d2f516d47485067632e706e67" width="50px" height="50px"></a>
+<a name="README"></a><a href="https://www.npmjs.com/"><img src="https://www.npmjs.com/static/images/npm-logo.svg" width="50px" height="50px"></a></p>
+
+<h1>
+<a id="arrays" class="anchor" href="#arrays" aria-hidden="true"><span class="octicon octicon-link"></span></a>Arrays</h1>
+
+<div class="highlight highlight-source-js"><pre>  <span class="pl-c">/* An array is a data structure with automatically indexed positions*/</span>
+  it(<span class="pl-s"><span class="pl-pds">'</span>Arrays can be accessed by indices<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+    <span class="pl-c">//The brackets indicate to the compiler to make an array and to fill it with</span>
+    <span class="pl-c">//the comma-separated values between the brackets</span>
+    <span class="pl-k">var</span> arrayOfStrings <span class="pl-k">=</span> [ <span class="pl-s"><span class="pl-pds">"</span>StringZero<span class="pl-pds">"</span></span> , <span class="pl-s"><span class="pl-pds">"</span>StringOne<span class="pl-pds">"</span></span> , <span class="pl-s"><span class="pl-pds">"</span>StringTwo<span class="pl-pds">"</span></span>];
+    <span class="pl-c">//We can access any location of the zero-based array</span>
+    expect(arrayOfStrings[<span class="pl-c1">1</span>]).toBe(<span class="pl-s"><span class="pl-pds">"</span>StringOne<span class="pl-pds">"</span></span>);
+  });
+  it(<span class="pl-s"><span class="pl-pds">'</span>You can reference and change specific cells with indices<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+    <span class="pl-k">var</span> arrayOfStrings <span class="pl-k">=</span> [ <span class="pl-s"><span class="pl-pds">"</span>StringOne<span class="pl-pds">"</span></span> , <span class="pl-s"><span class="pl-pds">"</span>StringOne<span class="pl-pds">"</span></span> , <span class="pl-s"><span class="pl-pds">"</span>StringTwo<span class="pl-pds">"</span></span>];
+    arrayOfStrings[<span class="pl-c1">0</span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>StringZero<span class="pl-pds">"</span></span>; <span class="pl-c">//You can change the value contained at any index</span>
+    expect(arrayOfStrings[<span class="pl-c1">0</span>]).toBe(<span class="pl-s"><span class="pl-pds">"</span>StringZero<span class="pl-pds">"</span></span>);
+  });</pre></div>
+
+<h1>
+<a id="functions" class="anchor" href="#functions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Functions</h1>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-c">/*Functions take some input, then execute a series of statements using the input, and outputs a result*/</span>
+it(<span class="pl-s"><span class="pl-pds">'</span>functions help write reusable code<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+  expect(addNumbers(<span class="pl-c1">1</span>, <span class="pl-c1">2</span>)).toBe(<span class="pl-c1">3</span>);
+  expect(addNumbers(<span class="pl-c1">2</span>, <span class="pl-c1">3</span>)).toBe(<span class="pl-c1">5</span>);
+  expect(addNumbers(<span class="pl-c1">1</span> <span class="pl-k">+</span> <span class="pl-c1">1</span>, <span class="pl-c1">2</span> <span class="pl-k">+</span> <span class="pl-c1">1</span>)).toBe(<span class="pl-c1">5</span>);<span class="pl-c">//Parameters can also be expressions, which the function will resolve before starting</span>
+  <span class="pl-k">var</span> numberOne <span class="pl-k">=</span> <span class="pl-c1">2</span>;
+  <span class="pl-k">var</span> numberTwo <span class="pl-k">=</span> <span class="pl-c1">3</span>;
+  expect(addNumbers(numberOne, numberTwo)).toBe(<span class="pl-c1">5</span>);<span class="pl-c">//Parameters can also be variables</span>
+});
+
+<span class="pl-c">// function keyword tells the compiler that you are defining a function</span>
+<span class="pl-k">function</span> <span class="pl-en">addNumbers</span>(<span class="pl-smi">numberOne</span>, <span class="pl-smi">numberTwo</span>) { <span class="pl-c">//The function's name follows the 'function' keyword and should indicate the function's purpose</span>
+  <span class="pl-c">//Parameters are passed in a set of parentheses before the first curly brace</span>
+  <span class="pl-k">return</span> numberOne <span class="pl-k">+</span> numberTwo;
+  <span class="pl-c">//The return keyword works as a terminating statement and exits the function returning the value in front of it</span>
+} <span class="pl-c">//The statements that will be executed should be enclosed in curly braces.</span>
+</pre></div>
+
+<h1>
+<a id="numbers" class="anchor" href="#numbers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Numbers</h1>
+
+<div class="highlight highlight-source-js"><pre>it(<span class="pl-s"><span class="pl-pds">'</span>JavaScript uses binary floating point values to handle all of its decimal based operations<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+  expect(<span class="pl-c1">0.1</span> <span class="pl-k">+</span> <span class="pl-c1">0.2</span>).toBe(<span class="pl-c1">0.30000000000000004</span>);
+});
+it(<span class="pl-s"><span class="pl-pds">'</span>You can use the toFixed() method to select the amount of decimal places to display<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+  expect((<span class="pl-c1">0.1</span> <span class="pl-k">+</span> <span class="pl-c1">0.2</span>).toFixed(<span class="pl-c1">1</span>)).toBe(<span class="pl-s"><span class="pl-pds">'</span>0.3<span class="pl-pds">'</span></span>);
+});
+it(<span class="pl-s"><span class="pl-pds">'</span>toFixed() method will round to the last indicated position<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+  <span class="pl-c">//0.18 + 0.28 = 0.46</span>
+  expect((<span class="pl-c1">0.18</span> <span class="pl-k">+</span> <span class="pl-c1">0.28</span>).toFixed(<span class="pl-c1">1</span>)).toBe(<span class="pl-s"><span class="pl-pds">'</span>0.5<span class="pl-pds">'</span></span>);
+});
+it(<span class="pl-s"><span class="pl-pds">'</span>parseFloat() turns strings with decimals into numbers<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+  expect(<span class="pl-c1">parseFloat</span>((<span class="pl-c1">0.18</span> <span class="pl-k">+</span> <span class="pl-c1">0.28</span>).toFixed(<span class="pl-c1">1</span>))).toBe(<span class="pl-c1">0.5</span>);
+});
+it(<span class="pl-s"><span class="pl-pds">'</span>parseInt() looks for the first available integer at the front of a string<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+  expect(<span class="pl-c1">parseInt</span>(<span class="pl-s"><span class="pl-pds">"</span>55<span class="pl-pds">"</span></span>)).toBe(<span class="pl-c1">55</span>);
+  expect(<span class="pl-c1">parseInt</span>(<span class="pl-s"><span class="pl-pds">"</span>55 is a great number<span class="pl-pds">"</span></span>)).toBe(<span class="pl-c1">55</span>);
+});
+it(<span class="pl-s"><span class="pl-pds">'</span>if parseInt() does not find an acceptable value at the beginning of a string, it will return a NaN<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+  expect(<span class="pl-c1">parseInt</span>(<span class="pl-s"><span class="pl-pds">"</span>A great number, 55<span class="pl-pds">"</span></span>)).toBeNaN();
+});
+it(<span class="pl-s"><span class="pl-pds">'</span>parseInt() will trim off any decimals that may exist, without rounding<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+  expect(<span class="pl-c1">parseInt</span>(<span class="pl-s"><span class="pl-pds">"</span>5.78<span class="pl-pds">"</span></span>)).toBe(<span class="pl-c1">5</span>);
+});
+it(<span class="pl-s"><span class="pl-pds">'</span>parseInt() will accept octal,hexadecimal and decimal values potentially creating undesired results<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+  <span class="pl-c">//"021" is read as an octal value(base 8) and converts it to decimal</span>
+  expect(<span class="pl-c1">parseInt</span>(<span class="pl-s"><span class="pl-pds">"</span>021<span class="pl-pds">"</span></span>)).toBe(<span class="pl-c1">17</span>);<span class="pl-c">//This is fixed on ECMAScript5</span>
+});
+it(<span class="pl-s"><span class="pl-pds">'</span>you can use a radix value to ensure correct parsing<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+  <span class="pl-c">//parseInt will accept any radix value from 2-36 for selecting the Base for the result</span>
+  expect(<span class="pl-c1">parseInt</span>(<span class="pl-s"><span class="pl-pds">"</span>021<span class="pl-pds">"</span></span>, <span class="pl-c1">10</span>)).toBe(<span class="pl-c1">21</span>);
+});</pre></div>
+
+<h1>
+<a id="anonymous-closures" class="anchor" href="#anonymous-closures" aria-hidden="true"><span class="octicon octicon-link"></span></a>Anonymous Closures</h1>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-c">//When you create NAMESPACES, the program may still execute its private methods and variables</span>
+<span class="pl-c">//It is good practice to use private methods to safely modify private data</span>
+<span class="pl-c">//Anonymous Closures allow you to define public and private variables</span>
+it(<span class="pl-s"><span class="pl-pds">'</span>Closures will allow you to make private variables and properties<span class="pl-pds">'</span></span>, <span class="pl-k">function</span> () {
+  <span class="pl-c">//You can achieve this by surrounding the entire set of properties and values in an immediately</span>
+  <span class="pl-c">//invoked function expression</span>
+  <span class="pl-c">//The local values and methods will be "closed" into the namespace</span>
+  <span class="pl-k">var</span> <span class="pl-c1">NAMESPACE</span> <span class="pl-k">=</span> (<span class="pl-k">function</span> () {
+    <span class="pl-k">var</span> privateArray <span class="pl-k">=</span> [<span class="pl-c1">1</span>, <span class="pl-c1">2</span>, <span class="pl-c1">3</span>];
+    <span class="pl-k">var</span> privateVariable <span class="pl-k">=</span> <span class="pl-c1">9</span>;
+    <span class="pl-c">//In order to make public properties, you can return an object</span>
+    <span class="pl-k">return</span> {
+      <span class="pl-c">//Since the function expression is invoked, this returned object will be handled immediately</span>
+      <span class="pl-c">// to the NAMESPACE variable and become a namespace</span>
+      <span class="pl-en">publicArray</span><span class="pl-k">:</span> <span class="pl-k">function</span> () {
+        <span class="pl-k">return</span> [<span class="pl-c1">4</span>, <span class="pl-c1">5</span>, <span class="pl-c1">6</span>];
+      },
+      publicVariable<span class="pl-k">:</span> <span class="pl-c1">10</span> <span class="pl-k">+</span> privateVariable
+    };
+  })();<span class="pl-c">//These parentheses indicate that the function expression should be immediately executed</span>
+  <span class="pl-c">//Since privateArray and privateVariable are private, we expect them to be undefined</span>
+  expect(<span class="pl-c1">NAMESPACE</span>.privateArray).toBeUndefined();
+  expect(<span class="pl-c1">NAMESPACE</span>.privateVariable).toBeUndefined();
+  expect(<span class="pl-c1">NAMESPACE</span>.publicArray()).toEqual([<span class="pl-c1">4</span>, <span class="pl-c1">5</span>, <span class="pl-c1">6</span>]);
+  expect(<span class="pl-c1">NAMESPACE</span>.publicVariable).toBe(<span class="pl-c1">19</span>);
+});</pre></div>
+
+<h1>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h1>
+
+<pre lang="Terminal"><code>npm install
+bower install
+</code></pre>
+
+<h1>
+<a id="run-the-tests" class="anchor" href="#run-the-tests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run the Tests</h1>
+
+<div class="highlight highlight-source-js"><pre>grunt test</pre></div>
+
+<p><a href="https://github.com/MartinChavez/Learn-Javascript"><img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/Run+Tests.png"></a></p>
+
+<h1>
+<a id="questions-" class="anchor" href="#questions-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Questions ?</h1>
+
+<p>If you have any questions, please feel free to ask me:
+<a href="mailto:martin.chavez@live.com">Martin Chavez Aguilar</a></p>
+
+<h1>
+<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributors</h1>
+
+<ul>
+<li>
+<a href="http://martinchavezaguilar.com/">Martin Chavez Aguilar</a> - Wrote the project</li>
+</ul>
+
+<h1>
+<a id="continue-learning" class="anchor" href="#continue-learning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Continue Learning</h1>
+
+<p><a name="README"></a><a href="https://github.com/MartinChavez/AngularJs-Basics"><img src="https://pbs.twimg.com/profile_images/2149314222/square.png" width="50px" height="50px"></a>
+<a name="README"></a><a href="https://github.com/MartinChavez/AngularJS-Advanced-Topics"><img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/angularadvanced.png" width="50px" height="50px"></a>
+<a name="README"></a><a href="https://github.com/MartinChavez/CSharp"><img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/csharp7.png" width="50px" height="50px"></a>
+<a name="README"></a><a href="https://github.com/MartinChavez/jQueryBasics"><img src="http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif" width="50px" height="50px"></a>
+<a name="README"></a><a href="https://github.com/MartinChavez/HTML-CSS"><img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/htmlcss.jpg" width="65px" height="50px"></a>
+<a name="README"></a><a href="https://github.com/MartinChavez/HTML-CSS-Advanced-Topics"><img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/htmlcssblack.jpg" width="50px" height="50px"></a></p>
         </section>
 
         <footer>
