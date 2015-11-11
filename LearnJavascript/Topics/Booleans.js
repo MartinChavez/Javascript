@@ -9,18 +9,21 @@ describe('Booleans', function () {
   /*Operators*/
   /*Common Operators used in Javascript Language*/
   it('Addition', function () {
-    expect(6+4).toBe(10);// evaluates to true
+    // evaluates to true
+    expect(6+4 === 10).toBe(true);
   });
   it('Subtraction', function () {
-    expect(10-4).toBe(6);//evaluates to true
+    //evaluates to true
+    expect(10-4 === 6).toBe(true);
   });
   it('Division', function () {
-    expect(12/4).toBe(3);//evaluates to true
+    //evaluates to true
+    expect(12/4 === 3).toBe(true);
   });
   /*Grouping Expressions*/
   /*PEMDAS: Parentheses, Exponents, Multiplication, Division, Addition and Subtraction. */
   it('Javascript follows PEMDAS: Order of Operations', function () {
-    expect((-5 * 6) - 7 * -2).toBe(-16);
+    expect((-5 * 6) - 7 * -2 === -16).toBe(true);
   });
 
   /*Comparators*/
