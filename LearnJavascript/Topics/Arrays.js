@@ -55,11 +55,11 @@ describe('Arrays', function () {
     var firstArrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
     var secondArrayOfStrings = [ "StringThree" , "StringFour" , "StringFive"];
     var firstAndSecondArrays = [firstArrayOfStrings , secondArrayOfStrings];
-    expect(typeof firstAndSecondArrays).toBe("object");//Arrays are treated as objects
+    expect(Array.isArray(firstAndSecondArrays)).toBe(true);// By combining Arrays, you create a new Array
     expect(firstAndSecondArrays[1][0]).toBe("StringThree");//You can access any index of the composed array
   });
   it('Arrays can hold undefined values ', function () {
-    var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
+    var arrayOfStrings = ["StringZero" , "StringOne" , "StringTwo"];
     arrayOfStrings[1] = undefined; //to make a cell empty. we can use the keyword 'undefined', which means 'NO CONTENTS'
     expect(arrayOfStrings[1]).toBeUndefined();
     expect(arrayOfStrings.length).toBe(3);//The array length does not change when some of the values are undefined
