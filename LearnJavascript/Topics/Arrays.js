@@ -66,7 +66,7 @@ describe('Arrays', function () {
   });
   it('Arrays can be created with no values ', function () {
     var arrayOfStrings = [];
-    expect(typeof arrayOfStrings).toBe("object");
+    expect(Array.isArray(arrayOfStrings)).toBe(true);
     //When you access an index of the array, but you haven't assigned a value, the array returns 'undefined'
     expect(arrayOfStrings[1]).toBeUndefined();
     expect(arrayOfStrings.length).toBe(0);
