@@ -9,12 +9,12 @@ describe('Booleans', function () {
   /*Operators*/
   /*Common Operators used in Javascript Language*/
   it('Addition', function () {
-    // evaluates to true
     expect(6+4 === 10).toBe(true);
+    expect(6+4 === 11).toBe(false);
   });
   it('Subtraction', function () {
-    //evaluates to true
     expect(10-4 === 6).toBe(true);
+    expect(10-4 === -6).toBe(false);
   });
   it('Division', function () {
     //evaluates to true
