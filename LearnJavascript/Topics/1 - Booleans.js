@@ -3,7 +3,7 @@
 describe('Booleans', function () {
 
   /*Boolean : Represents one of two values: true or false.
-  * We will demonstrate the use of this type with different operators and comparators.
+  * We will demonstrate the use of this Type with different operators and comparators.
   * */
 
   /*Operators*/
@@ -17,7 +17,6 @@ describe('Booleans', function () {
     expect(10-4 === -6).toBe(false);
   });
   it('Division', function () {
-    //evaluates to true
     expect(12/4 === 3).toBe(true);
   });
   /*Grouping Expressions*/
