@@ -149,6 +149,93 @@ it('Closures will allow you to make private variables and properties', function 
   expect(NAMESPACE.publicVariable).toBe(19);
 });
 ```
+Prototypes
+====================
+```Javascript
+/*Class :  Set of Objects that inherit properties from the same prototype*/
+
+  it('You can create Constructors that allow to set up inheritance while also assigning specific property values', function () {
+    //Capitalizing this function's name distinguishes it as a maker of an entire "Class" of objects
+    function Person (firstName, lastName ,age){
+      //'this' keyword inside a constructor will automatically refer to the new instance of the class that is being made
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.age = age;
+    }
+
+    //'new' keyword produces a new Object of the specified class
+    var martinPerson = new Person("Martin", "Chavez", 27);
+
+    expect(martinPerson.firstName).toBe("Martin");
+    expect(martinPerson.lastName).toBe("Chavez");
+    expect(martinPerson.age).toBe(27);
+  });
+
+  it('You can assign a prototype to a constructor', function () {
+    function Person (firstName, lastName ,age){
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.age = age;
+    }
+    //Setting a constructor prototype property allows the instances to access these properties
+    Person.prototype = {
+      address: "House 123"
+    };
+    var martinPerson = new Person("Martin", "Chavez", 27); //There is no need to define the address for each person
+    expect(martinPerson.address).toBe("House 123");
+
+  });
+  it('You can modify the message functions in a prototype to use the data values in the calling instance', function () {
+    function Person (firstName, lastName){
+      this.firstName = firstName;
+      this.lastName = lastName;
+    }
+
+    Person.prototype = {
+      //'this' keyword searches for the particular Object(Person) that called the inherited function and retrieves the data from it
+      fullName: function() { return(this.firstName + " " + this.lastName); }
+    };
+    var martinPerson = new Person("Martin", "Chavez");
+
+    expect(martinPerson.fullName()).toBe("Martin Chavez");
+  });
+
+  it('You can use prototype chaining to reuse functionality', function () {
+    function Person (firstName, lastName){
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.blackHair = true;
+    }
+
+    function Baby(firstName, lastName){
+      //You can call the Person constructor within the Baby constructor
+      Person.call(this,firstName, lastName);
+      // We need to add a reference to this Object constructor, otherwise it will use the Person constructor
+      this.constructor = Baby;
+    }
+
+    // By setting a parent object as a constructors prototype, objects build with that construct gain access to
+    // all the methods on that object, including the methods on its contractor prototype and so on
+    Baby.prototype = new Person();
+
+    // You can also add specific methods to this prototype
+    Baby.prototype.cry = function(){
+      this.isCrying = true;
+    };
+
+    var baby = new Baby("Martin", "Chavez");
+    baby.cry();
+
+    // Property from the Baby object
+    expect(baby.isCrying).toBeTruthy();
+    expect(baby.firstName).toBe("Martin");
+    expect(baby.lastName).toBe("Chavez");
+    expect(baby.constructor).toBe(Baby);
+    // Property from the Person object
+    expect(baby.blackHair).toBe(true);
+  });
+```
+
 Install
 ====================
 ```Terminal
