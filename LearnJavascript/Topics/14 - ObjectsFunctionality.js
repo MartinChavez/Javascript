@@ -33,6 +33,21 @@ describe('Object Functionality', function () {
     expect(person.age).toBe(28);
   });
 
+  it('Methods functions are loosely tied to the objects they are attached to', function () {
+
+    var person = {
+      firstName : "Martin",
+      age : 27,
+      updateAge : function(newAge){
+        this.age = newAge;
+      }
+    };
+
+    // Using the call method, you can specify any object you want to use instead of 'this'
+    person.updateAge.call({firstName: "Corrie", age: 28});
+    expect(person.age).toBe(27);//The original age is still the same
+  });
+
   it('Objects do not have a native length property', function () {
 
     var person = {

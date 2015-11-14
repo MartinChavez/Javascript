@@ -15,6 +15,17 @@ describe('Objects', function () {
     expect(person.age).toBe(27);//We can access all the object's properties
   });
 
+  it('You can build objects with the Object construct', function () {
+
+    // Use the 'new' keyword followed by a call for the Object construct
+    var person = new Object();
+    person.firstName = "Martin";
+    person.age = 27;
+
+    expect(person.firstName).toBe("Martin");
+    expect(person.age).toBe(27);
+  });
+
   it('You can change the property values of an object', function () {
 
     var person = {
