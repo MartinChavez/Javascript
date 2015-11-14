@@ -124,6 +124,41 @@ describe('Prototypes', function () {
     expect(martinPerson.fullName()).toBe("Martin Chavez");
   });
 
+  it('You can use prototype chaining to reuse functionality', function () {
+    function Person (firstName, lastName){
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.blackHair = true;
+    }
+
+    function Baby(firstName, lastName){
+      //You can call the Person constructor within the Baby constructor
+      Person.call(this,firstName, lastName);
+      // We need to add a reference to this Object constructor, otherwise it will use the Person constructor
+      this.constructor = Baby;
+    }
+
+    // By setting a parent object as a constructors prototype, objects build with that construct gain access to
+    // all the methods on that object, including the methods on its contractor prototype and so on
+    Baby.prototype = new Person();
+
+    // You can also add specific methods to this prototype
+    Baby.prototype.cry = function(){
+      this.isCrying = true;
+    };
+
+    var baby = new Baby("Martin", "Chavez");
+    baby.cry();
+
+    // Property from the Baby object
+    expect(baby.isCrying).toBeTruthy();
+    expect(baby.firstName).toBe("Martin");
+    expect(baby.lastName).toBe("Chavez");
+    expect(baby.constructor).toBe(Baby);
+    // Property from the Person object
+    expect(baby.blackHair).toBe(true);
+  });
+
   /*Performance Optimizations*/
 
   it('You can improve the memory efficiency of the program by adding common functionality on the objects prototype', function () {
