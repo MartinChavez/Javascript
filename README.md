@@ -215,7 +215,7 @@ Prototypes
     }
 
     // By setting a parent object as a constructors prototype, objects build with that construct gain access to
-    // all the methods on that object, including the methods on its contractor prototype and so on
+    // all the methods on that object, including the methods on its constructor prototype.
     Baby.prototype = new Person();
 
     // You can also add specific methods to this prototype
