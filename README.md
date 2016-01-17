@@ -239,6 +239,8 @@ Prototypes
 Install
 ====================
 ```Terminal
+npm install --global npm@latest
+npm install --global yo bower grunt-cli
 npm install
 bower install
 ```
