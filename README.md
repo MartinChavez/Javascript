@@ -237,11 +237,12 @@ Prototypes
   });
 ```
 
-Install
+Install (Works on any platform)
 ====================
 ```Terminal
-npm install --global npm@latest
+npm install --global npm@latest (if you don't have it already)
 npm install --global yo bower grunt-cli
+cd LearnJavascript
 npm install
 bower install
 ```
