@@ -16,7 +16,7 @@ Topics
  - Conditionals
  - Exceptions
  - Falsey Values
- - *Functional Javascript (new)
+ - Functional Javascript (new)
  - Function Expressions
  - Function Expressions as Parameters
  - Functions
