@@ -9,6 +9,10 @@ Topics
 ================
  - Arrays
  - Bad Practices and Solutions
+ 
+ 
+ 
+ 
  - Booleans
  - Built-in Functions
  - Closure
