@@ -43,7 +43,7 @@ Tools
 <a name="README">[<img src="https://cldup.com/0286W-2y27.png" width="50px" height="50px" />](https://karma-runner.github.io/0.12/index.html)</a>
 <a name="README">[<img src="https://eclipsesource.com/wp-content/uploads/2014/03/jasmine.png" width="50px" height="50px" />](https://github.com/jasmine/jasmine)</a>
 <a name="README">[<img src="https://camo.githubusercontent.com/aad5f0385a2d8524cb366a1bad62bc74e797743a/687474703a2f2f692e696d6775722e636f6d2f516d47485067632e706e67" width="50px" height="50px" />](http://bower.io/)</a>
-<a name="README">[<img src="https://martinchavez.github.io/Assets/Logos/npm.svg" width="50px" height="50px" />](https://www.npmjs.com/)</a>
+<a name="README">[<img src="https://martinchavez.github.io/Assets/Logos/npm.svg" width="50px" height="20px" />](https://www.npmjs.com/)</a>
 
 Arrays
 ====================
