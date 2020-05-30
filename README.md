@@ -252,7 +252,7 @@ Run the Tests
 ```Javascript
 grunt test
 ```
-[<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/Run+Tests.png"  />](https://github.com/MartinChavez/Learn-Javascript)
+![Run the tests](RunTests.png)
 
 ## Author
 
