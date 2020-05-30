@@ -1,4 +1,4 @@
-<a name="README">[<img src="https://s3-us-west-2.amazonaws.com/martinbucket/JS.png" width="200px" height="200px" />](https://github.com/MartinChavez/Learn-Javascript)</a>
+<a name="README">[<img src="https://martinchavez.github.io/Assets/Logos/javascript.svg" width="200px" height="200px" />](https://github.com/MartinChavez/Learn-Javascript)</a>
 
 Javascript : Test-Driven Learning
 ================
