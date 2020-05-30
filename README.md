@@ -261,7 +261,7 @@ grunt test
 Continue Learning
 ====================
 <a name="README">[<img src="https://martinchavez.github.io/Assets/Logos/javascript.svg" width="50px" height="50px" />](https://github.com/MartinChavez/Learn-Javascript)</a>
-<a name="README">[<img src="http://nodejs-cloud.com/img/128px/nodejs.png" width="50px" height="50px" />](https://github.com/MartinChavez/Node.js-Tutorial)</a>
+<a name="README">[<img src="https://martinchavez.github.io/Assets/Logos/nodejs.svg" width="50px" height="31px" />](https://github.com/MartinChavez/Node.js-Tutorial)</a>
 <a name="README">[<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/square.png" width="50px" height="50px" />](https://github.com/MartinChavez/AngularJs-Basics)</a>
 <a name="README">[<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/angularadvanced.png" width="50px" height="50px" />](https://github.com/MartinChavez/AngularJS-Advanced-Topics)</a>
 <a name="README">[<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/CSHARP.png" width="50px" height="50px" />](https://github.com/MartinChavez/CSharp)</a>
