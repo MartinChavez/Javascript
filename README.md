@@ -268,4 +268,4 @@ Continue Learning
 <a name="README">[<img src="https://martinchavez.github.io/Assets/Logos/linq.svg" width="50px" height="50px" />](https://github.com/MartinChavez/LINQ)</a>
 <a name="README">[<img src="https://martinchavez.github.io/Assets/Logos/jquery.svg" width="50px" height="50px" />](https://github.com/MartinChavez/jQueryBasics)</a>
 <a name="README">[<img src="https://martinchavez.github.io/Assets/Logos/htmlcss.svg" width="65px" height="50px" />](https://github.com/MartinChavez/HTML-CSS)</a>
-<a name="README">[<img src="https://martinchavez.github.io/Assets/Logos/htmlcss.svg" width="65px" height="50px" />](https://github.com/MartinChavez/HTML-CSS-Advanced-Topics)</a>
+<a name="README">[<img src="https://martinchavez.github.io/Assets/Logos/htmlcss2.svg" width="65px" height="50px" />](https://github.com/MartinChavez/HTML-CSS-Advanced-Topics)</a>
