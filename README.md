@@ -1,11 +1,12 @@
+## Best JavaScript learner
 <a name="README">[<img src="https://martinchavez.github.io/Assets/Logos/javascript.svg" width="200px" height="200px" />](https://github.com/MartinChavez/Learn-Javascript)</a>
 
-Javascript : Test-Driven Learning
+JavaScript : Test-Driven Learning
 ================
 
-This project is aimed to help the user further study Javascript with a test-driven approach. Each unit contains an annotated tutorial and a platform where you can test your understanding of the topic.
+This project is aimed to help the user further study JavaScript with a test-driven approach. Each unit contains an annotated tutorial and a platform where you can test your understanding of the topic.
 
-Topics
+Topics of this project
 ================
  - Arrays
  - Bad Practices and Solutions
